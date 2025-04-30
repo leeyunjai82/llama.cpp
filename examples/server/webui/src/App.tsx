@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { HashRouter, Outlet, Route, Routes } from 'react-router';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
@@ -24,6 +25,38 @@ function App() {
 
 function AppLayout() {
   const { showSettings, setShowSettings } = useAppContext();
+
+  const urlon = `http://${location.hostname}/llm?enable=on`;
+  console.log(`[handleBeforeUnload] 요청 URL: ${urlon}`);
+  fetch(urlon, { method: 'GET', keepalive: true })
+    .then(response => {
+    console.log(`[handleBeforeUnload] fetch 응답 수신. 상태: ${response.status}`);
+    if (!response.ok) {}
+  })
+  .catch(_err => {
+  });
+
+  // <<< yjlee 시작 >>>
+  useEffect(() => {
+    const handleBeforeUnload = (_event: BeforeUnloadEvent) => {
+      const urloff = `http://${location.hostname}/llm?enable=off`;
+      console.log(`[handleBeforeUnload] 요청 URL: ${urloff}`);
+      fetch(urloff, { method: 'GET', keepalive: true })
+        .then(response => {
+          console.log(`[handleBeforeUnload] fetch 응답 수신. 상태: ${response.status}`);
+          if (!response.ok) {}
+        })
+        .catch(_err => {
+        });
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    // Cleanup 함수
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
+  }, []);
+  // <<< yjlee 끝 >>>
+
   return (
     <>
       <Sidebar />

@@ -200,7 +200,7 @@ services:
 - Using `CMake`:
 
   ```bash
-  cmake -B build
+  cmake -B build -DLLAMA_CURL=OFF
   cmake --build build --config Release -t llama-server
   ```
 

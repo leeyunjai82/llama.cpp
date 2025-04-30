@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o" CMakeFiles/mtmd.dir/mtmd.cpp.o CMakeFiles/mtmd.dir/clip.cpp.o -o ../../bin/llama-mtmd-cli  -Wl,-rpath,/home/pi/llama.cpp/build/bin: ../../common/libcommon.a ../../bin/libllama.so ../../bin/libggml.so ../../bin/libggml-cpu.so ../../bin/libggml-base.so 
