@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/llama.cpp/pocs/vdot
+# Install script for directory: /home/pi/.llama.cpp/pocs/vdot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

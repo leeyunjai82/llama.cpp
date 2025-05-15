@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test-autorelease.dir/depend.make
@@ -70,32 +70,32 @@ include tests/CMakeFiles/test-autorelease.dir/progress.make
 include tests/CMakeFiles/test-autorelease.dir/flags.make
 
 tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o: tests/CMakeFiles/test-autorelease.dir/flags.make
-tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o: /home/pi/llama.cpp/tests/test-autorelease.cpp
+tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o: /home/pi/.llama.cpp/tests/test-autorelease.cpp
 tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o: tests/CMakeFiles/test-autorelease.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o -MF CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o.d -o CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o -c /home/pi/llama.cpp/tests/test-autorelease.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o"
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o -MF CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o.d -o CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o -c /home/pi/.llama.cpp/tests/test-autorelease.cpp
 
 tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-autorelease.dir/test-autorelease.cpp.i"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/tests/test-autorelease.cpp > CMakeFiles/test-autorelease.dir/test-autorelease.cpp.i
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/tests/test-autorelease.cpp > CMakeFiles/test-autorelease.dir/test-autorelease.cpp.i
 
 tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-autorelease.dir/test-autorelease.cpp.s"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/tests/test-autorelease.cpp -o CMakeFiles/test-autorelease.dir/test-autorelease.cpp.s
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/tests/test-autorelease.cpp -o CMakeFiles/test-autorelease.dir/test-autorelease.cpp.s
 
 tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o: tests/CMakeFiles/test-autorelease.dir/flags.make
-tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o: /home/pi/llama.cpp/tests/get-model.cpp
+tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o: /home/pi/.llama.cpp/tests/get-model.cpp
 tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o: tests/CMakeFiles/test-autorelease.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o -MF CMakeFiles/test-autorelease.dir/get-model.cpp.o.d -o CMakeFiles/test-autorelease.dir/get-model.cpp.o -c /home/pi/llama.cpp/tests/get-model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o"
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o -MF CMakeFiles/test-autorelease.dir/get-model.cpp.o.d -o CMakeFiles/test-autorelease.dir/get-model.cpp.o -c /home/pi/.llama.cpp/tests/get-model.cpp
 
 tests/CMakeFiles/test-autorelease.dir/get-model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-autorelease.dir/get-model.cpp.i"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/tests/get-model.cpp > CMakeFiles/test-autorelease.dir/get-model.cpp.i
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/tests/get-model.cpp > CMakeFiles/test-autorelease.dir/get-model.cpp.i
 
 tests/CMakeFiles/test-autorelease.dir/get-model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-autorelease.dir/get-model.cpp.s"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/tests/get-model.cpp -o CMakeFiles/test-autorelease.dir/get-model.cpp.s
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/tests/get-model.cpp -o CMakeFiles/test-autorelease.dir/get-model.cpp.s
 
 # Object files for target test-autorelease
 test__autorelease_OBJECTS = \
@@ -114,18 +114,18 @@ bin/test-autorelease: bin/libggml.so
 bin/test-autorelease: bin/libggml-cpu.so
 bin/test-autorelease: bin/libggml-base.so
 bin/test-autorelease: tests/CMakeFiles/test-autorelease.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-autorelease"
-	cd /home/pi/llama.cpp/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-autorelease.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-autorelease"
+	cd /home/pi/.llama.cpp/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-autorelease.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test-autorelease.dir/build: bin/test-autorelease
 .PHONY : tests/CMakeFiles/test-autorelease.dir/build
 
 tests/CMakeFiles/test-autorelease.dir/clean:
-	cd /home/pi/llama.cpp/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test-autorelease.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test-autorelease.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test-autorelease.dir/clean
 
 tests/CMakeFiles/test-autorelease.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/tests /home/pi/llama.cpp/build /home/pi/llama.cpp/build/tests /home/pi/llama.cpp/build/tests/CMakeFiles/test-autorelease.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/tests /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/tests /home/pi/.llama.cpp/build/tests/CMakeFiles/test-autorelease.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/test-autorelease.dir/depend
 

@@ -1,9 +1,9 @@
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c \
  /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/ggml/src/./ggml-backend-impl.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-backend-impl.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -33,11 +33,11 @@ ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
- /home/pi/llama.cpp/ggml/src/./ggml-impl.h \
- /home/pi/llama.cpp/ggml/src/../include/gguf.h /usr/include/assert.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-impl.h \
+ /home/pi/.llama.cpp/ggml/src/../include/gguf.h /usr/include/assert.h \
  /usr/include/math.h /usr/include/aarch64-linux-gnu/bits/math-vector.h \
  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
@@ -79,16 +79,16 @@ ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_fp16.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_bf16.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.h \
- /home/pi/llama.cpp/ggml/src/./ggml-common.h \
- /home/pi/llama.cpp/ggml/src/./ggml-threading.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/unary-ops.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/common.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/binary-ops.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/vec.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/simd-mappings.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ops.h /usr/include/errno.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-common.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-threading.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/unary-ops.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/common.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/binary-ops.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/vec.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/simd-mappings.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ops.h /usr/include/errno.h \
  /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/lib/linux/uapi/arm64/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
@@ -155,7 +155,7 @@ ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: \
  /usr/lib/linux/uapi/arm64/asm/unistd.h /usr/include/asm-generic/unistd.h \
  /usr/include/aarch64-linux-gnu/bits/syscall.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/omp.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/aarch64-linux-gnu/bits/sched.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \

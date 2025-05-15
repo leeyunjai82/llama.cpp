@@ -1,6 +1,6 @@
 common/CMakeFiles/common.dir/console.cpp.o: \
- /home/pi/llama.cpp/common/console.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/common/console.h /usr/include/c++/12/string \
+ /home/pi/.llama.cpp/common/console.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/common/console.h /usr/include/c++/12/string \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

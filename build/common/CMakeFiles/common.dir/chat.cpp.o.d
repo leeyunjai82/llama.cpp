@@ -1,8 +1,8 @@
 common/CMakeFiles/common.dir/chat.cpp.o: \
- /home/pi/llama.cpp/common/chat.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/common/chat.h /home/pi/llama.cpp/common/common.h \
- /home/pi/llama.cpp/src/../include/llama-cpp.h /usr/include/c++/12/memory \
- /usr/include/c++/12/bits/stl_algobase.h \
+ /home/pi/.llama.cpp/common/chat.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/common/chat.h /home/pi/.llama.cpp/common/common.h \
+ /home/pi/.llama.cpp/src/../include/llama-cpp.h \
+ /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -114,8 +114,8 @@ common/CMakeFiles/common.dir/chat.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
@@ -123,9 +123,9 @@ common/CMakeFiles/common.dir/chat.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/include/c++/12/set /usr/include/c++/12/bits/stl_tree.h \
  /usr/include/c++/12/bits/node_handle.h \
  /usr/include/c++/12/bits/stl_set.h /usr/include/c++/12/initializer_list \
@@ -183,8 +183,8 @@ common/CMakeFiles/common.dir/chat.cpp.o: \
  /usr/include/c++/12/bits/ostream.tcc \
  /usr/include/c++/12/bits/istream.tcc \
  /usr/include/c++/12/bits/sstream.tcc \
- /home/pi/llama.cpp/common/json-schema-to-grammar.h \
- /home/pi/llama.cpp/common/json.hpp /usr/include/c++/12/algorithm \
+ /home/pi/.llama.cpp/common/json-schema-to-grammar.h \
+ /home/pi/.llama.cpp/common/json.hpp /usr/include/c++/12/algorithm \
  /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \
@@ -250,9 +250,9 @@ common/CMakeFiles/common.dir/chat.cpp.o: \
  /usr/include/c++/12/bits/fs_dir.h /usr/include/c++/12/bits/fs_ops.h \
  /usr/include/c++/12/numeric /usr/include/c++/12/bits/stl_numeric.h \
  /usr/include/c++/12/pstl/glue_numeric_defs.h /usr/include/c++/12/any \
- /home/pi/llama.cpp/common/log.h \
- /home/pi/llama.cpp/common/minja/chat-template.hpp \
- /home/pi/llama.cpp/common/minja/minja.hpp /usr/include/c++/12/iostream \
+ /home/pi/.llama.cpp/common/log.h \
+ /home/pi/.llama.cpp/common/minja/chat-template.hpp \
+ /home/pi/.llama.cpp/common/minja/minja.hpp /usr/include/c++/12/iostream \
  /usr/include/c++/12/regex /usr/include/c++/12/bitset \
  /usr/include/c++/12/stack /usr/include/c++/12/deque \
  /usr/include/c++/12/bits/stl_deque.h /usr/include/c++/12/bits/deque.tcc \
@@ -270,5 +270,5 @@ common/CMakeFiles/common.dir/chat.cpp.o: \
  /usr/include/c++/12/bits/regex_executor.tcc \
  /usr/include/c++/12/unordered_set \
  /usr/include/c++/12/bits/unordered_set.h \
- /home/pi/llama.cpp/common/./json.hpp /usr/include/c++/12/chrono \
+ /home/pi/.llama.cpp/common/./json.hpp /usr/include/c++/12/chrono \
  /usr/include/c++/12/optional

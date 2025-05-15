@@ -1,6 +1,6 @@
 src/CMakeFiles/llama.dir/llama-chat.cpp.o: \
- /home/pi/llama.cpp/src/llama-chat.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-chat.h /usr/include/c++/12/string \
+ /home/pi/.llama.cpp/src/llama-chat.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-chat.h /usr/include/c++/12/string \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -121,12 +121,12 @@ src/CMakeFiles/llama.dir/llama-chat.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/include/c++/12/map /usr/include/c++/12/bits/stl_tree.h \
  /usr/include/c++/12/ext/aligned_buffer.h \
  /usr/include/c++/12/bits/node_handle.h \

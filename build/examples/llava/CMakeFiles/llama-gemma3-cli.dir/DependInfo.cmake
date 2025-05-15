@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi/llama.cpp/examples/llava/deprecation-warning.cpp" "examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o" "gcc" "examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o.d"
+  "/home/pi/.llama.cpp/examples/llava/deprecation-warning.cpp" "examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o" "gcc" "examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o.d"
   )
 
 # Targets to which this target links.

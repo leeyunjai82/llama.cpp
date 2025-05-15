@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -Dllava_shared_EXPORTS
 
-CXX_INCLUDES = -I/home/pi/llama.cpp/examples -I/home/pi/llama.cpp/ggml/src/../include -I/home/pi/llama.cpp/src/../include
+CXX_INCLUDES = -I/home/pi/.llama.cpp/examples -I/home/pi/.llama.cpp/ggml/src/../include -I/home/pi/.llama.cpp/src/../include
 
 CXX_FLAGS = -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi
 

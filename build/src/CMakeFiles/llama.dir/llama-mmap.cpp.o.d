@@ -1,6 +1,6 @@
 src/CMakeFiles/llama.dir/llama-mmap.cpp.o: \
- /home/pi/llama.cpp/src/llama-mmap.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-mmap.h /usr/include/c++/12/cstdint \
+ /home/pi/.llama.cpp/src/llama-mmap.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-mmap.h /usr/include/c++/12/cstdint \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -117,8 +117,8 @@ src/CMakeFiles/llama.dir/llama-mmap.cpp.o: \
  /usr/include/c++/12/initializer_list \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/range_access.h \
- /usr/include/c++/12/bits/vector.tcc /home/pi/llama.cpp/src/llama-impl.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /usr/include/c++/12/bits/vector.tcc /home/pi/.llama.cpp/src/llama-impl.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \

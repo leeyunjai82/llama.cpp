@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/llama.cpp/ggml
+# Install script for directory: /home/pi/.llama.cpp/ggml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pi/llama.cpp/build/ggml/src/cmake_install.cmake")
+  include("/home/pi/.llama.cpp/build/ggml/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -54,12 +54,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pi/llama.cpp/build/bin/libggml.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pi/.llama.cpp/build/bin/libggml.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.so"
-         OLD_RPATH "/home/pi/llama.cpp/build/bin:"
+         OLD_RPATH "/home/pi/.llama.cpp/build/bin:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.so")
@@ -72,21 +72,21 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/pi/llama.cpp/ggml/include/ggml.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-cpu.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-alloc.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-backend.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-blas.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-cann.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-cpp.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-cuda.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-kompute.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-opt.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-metal.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-rpc.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-sycl.h"
-    "/home/pi/llama.cpp/ggml/include/ggml-vulkan.h"
-    "/home/pi/llama.cpp/ggml/include/gguf.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-cpu.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-alloc.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-backend.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-blas.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-cann.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-cpp.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-cuda.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-kompute.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-opt.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-metal.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-rpc.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-sycl.h"
+    "/home/pi/.llama.cpp/ggml/include/ggml-vulkan.h"
+    "/home/pi/.llama.cpp/ggml/include/gguf.h"
     )
 endif()
 
@@ -97,7 +97,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-base.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pi/llama.cpp/build/bin/libggml-base.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pi/.llama.cpp/build/bin/libggml-base.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-base.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-base.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -111,8 +111,8 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ggml" TYPE FILE FILES
-    "/home/pi/llama.cpp/build/ggml/ggml-config.cmake"
-    "/home/pi/llama.cpp/build/ggml/ggml-version.cmake"
+    "/home/pi/.llama.cpp/build/ggml/ggml-config.cmake"
+    "/home/pi/.llama.cpp/build/ggml/ggml-version.cmake"
     )
 endif()
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include ggml/src/CMakeFiles/ggml-cpu.dir/depend.make
@@ -70,186 +70,186 @@ include ggml/src/CMakeFiles/ggml-cpu.dir/progress.make
 include ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/vec.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/vec.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/vec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/vec.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/vec.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/vec.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/vec.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/vec.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/ops.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/ops.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/ops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/ops.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/ops.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/ops.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/ops.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/ops.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: /home/pi/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: /home/pi/.llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c /home/pi/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c /home/pi/.llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.i"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.i
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp > CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.s"
-	cd /home/pi/llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.s
+	cd /home/pi/.llama.cpp/build/ggml/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.s
 
 # Object files for target ggml-cpu
 ggml__cpu_OBJECTS = \
@@ -288,18 +288,18 @@ bin/libggml-cpu.so: bin/libggml-base.so
 bin/libggml-cpu.so: /usr/lib/gcc/aarch64-linux-gnu/12/libgomp.so
 bin/libggml-cpu.so: /usr/lib/aarch64-linux-gnu/libpthread.a
 bin/libggml-cpu.so: ggml/src/CMakeFiles/ggml-cpu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library ../../bin/libggml-cpu.so"
-	cd /home/pi/llama.cpp/build/ggml/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ggml-cpu.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library ../../bin/libggml-cpu.so"
+	cd /home/pi/.llama.cpp/build/ggml/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ggml-cpu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ggml/src/CMakeFiles/ggml-cpu.dir/build: bin/libggml-cpu.so
 .PHONY : ggml/src/CMakeFiles/ggml-cpu.dir/build
 
 ggml/src/CMakeFiles/ggml-cpu.dir/clean:
-	cd /home/pi/llama.cpp/build/ggml/src && $(CMAKE_COMMAND) -P CMakeFiles/ggml-cpu.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/ggml/src && $(CMAKE_COMMAND) -P CMakeFiles/ggml-cpu.dir/cmake_clean.cmake
 .PHONY : ggml/src/CMakeFiles/ggml-cpu.dir/clean
 
 ggml/src/CMakeFiles/ggml-cpu.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/ggml/src /home/pi/llama.cpp/build /home/pi/llama.cpp/build/ggml/src /home/pi/llama.cpp/build/ggml/src/CMakeFiles/ggml-cpu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/ggml/src /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/ggml/src /home/pi/.llama.cpp/build/ggml/src/CMakeFiles/ggml-cpu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ggml/src/CMakeFiles/ggml-cpu.dir/depend
 

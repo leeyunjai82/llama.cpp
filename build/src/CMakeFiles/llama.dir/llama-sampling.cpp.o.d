@@ -1,8 +1,8 @@
 src/CMakeFiles/llama.dir/llama-sampling.cpp.o: \
- /home/pi/llama.cpp/src/llama-sampling.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-sampling.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/llama-sampling.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-sampling.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -32,9 +32,9 @@ src/CMakeFiles/llama.dir/llama-sampling.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -72,7 +72,7 @@ src/CMakeFiles/llama.dir/llama-sampling.cpp.o: \
  /usr/include/c++/12/bits/stl_function.h \
  /usr/include/c++/12/backward/binders.h \
  /usr/include/c++/12/bits/range_access.h \
- /usr/include/c++/12/bits/vector.tcc /home/pi/llama.cpp/src/llama-impl.h \
+ /usr/include/c++/12/bits/vector.tcc /home/pi/.llama.cpp/src/llama-impl.h \
  /usr/include/c++/12/string /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/char_traits.h \
  /usr/include/c++/12/bits/postypes.h /usr/include/c++/12/cwchar \
@@ -124,7 +124,7 @@ src/CMakeFiles/llama.dir/llama-sampling.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/pi/llama.cpp/src/llama-vocab.h /usr/include/c++/12/memory \
+ /home/pi/.llama.cpp/src/llama-vocab.h /usr/include/c++/12/memory \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
@@ -160,7 +160,7 @@ src/CMakeFiles/llama.dir/llama-sampling.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/pi/llama.cpp/src/llama-grammar.h /usr/include/c++/12/map \
+ /home/pi/.llama.cpp/src/llama-grammar.h /usr/include/c++/12/map \
  /usr/include/c++/12/bits/stl_tree.h \
  /usr/include/c++/12/bits/node_handle.h \
  /usr/include/c++/12/bits/stl_map.h \

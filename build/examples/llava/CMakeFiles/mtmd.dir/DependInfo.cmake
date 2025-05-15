@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi/llama.cpp/examples/llava/clip.cpp" "examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o" "gcc" "examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o.d"
-  "/home/pi/llama.cpp/examples/llava/mtmd.cpp" "examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o" "gcc" "examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o.d"
+  "/home/pi/.llama.cpp/examples/llava/clip.cpp" "examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o" "gcc" "examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o.d"
+  "/home/pi/.llama.cpp/examples/llava/mtmd.cpp" "examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o" "gcc" "examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o.d"
   )
 
 # Targets to which this target links.

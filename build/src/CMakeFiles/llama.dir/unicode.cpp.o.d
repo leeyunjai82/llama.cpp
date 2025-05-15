@@ -1,6 +1,6 @@
 src/CMakeFiles/llama.dir/unicode.cpp.o: \
- /home/pi/llama.cpp/src/unicode.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/unicode.h /usr/include/c++/12/cstdint \
+ /home/pi/.llama.cpp/src/unicode.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/unicode.h /usr/include/c++/12/cstdint \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -119,7 +119,7 @@ src/CMakeFiles/llama.dir/unicode.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/pi/llama.cpp/src/unicode-data.h /usr/include/c++/12/unordered_map \
+ /home/pi/.llama.cpp/src/unicode-data.h /usr/include/c++/12/unordered_map \
  /usr/include/c++/12/ext/aligned_buffer.h \
  /usr/include/c++/12/bits/hashtable.h \
  /usr/include/c++/12/bits/hashtable_policy.h /usr/include/c++/12/tuple \

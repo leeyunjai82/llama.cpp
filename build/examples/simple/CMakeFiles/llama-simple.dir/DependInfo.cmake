@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi/llama.cpp/examples/simple/simple.cpp" "examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o" "gcc" "examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o.d"
+  "/home/pi/.llama.cpp/examples/simple/simple.cpp" "examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o" "gcc" "examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pi/llama.cpp/build/src/CMakeFiles/llama.dir/DependInfo.cmake"
-  "/home/pi/llama.cpp/build/ggml/src/CMakeFiles/ggml.dir/DependInfo.cmake"
-  "/home/pi/llama.cpp/build/ggml/src/CMakeFiles/ggml-cpu.dir/DependInfo.cmake"
-  "/home/pi/llama.cpp/build/ggml/src/CMakeFiles/ggml-base.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/src/CMakeFiles/llama.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/ggml/src/CMakeFiles/ggml.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/ggml/src/CMakeFiles/ggml-cpu.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/ggml/src/CMakeFiles/ggml-base.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

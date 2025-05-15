@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi/llama.cpp/ggml/src/ggml-alloc.c" "ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o.d"
-  "/home/pi/llama.cpp/ggml/src/ggml-quants.c" "ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o.d"
-  "/home/pi/llama.cpp/ggml/src/ggml.c" "ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o.d"
-  "/home/pi/llama.cpp/ggml/src/ggml-backend.cpp" "ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o.d"
-  "/home/pi/llama.cpp/ggml/src/ggml-opt.cpp" "ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o.d"
-  "/home/pi/llama.cpp/ggml/src/ggml-threading.cpp" "ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o.d"
-  "/home/pi/llama.cpp/ggml/src/gguf.cpp" "ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o.d"
+  "/home/pi/.llama.cpp/ggml/src/ggml-alloc.c" "ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o.d"
+  "/home/pi/.llama.cpp/ggml/src/ggml-quants.c" "ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o.d"
+  "/home/pi/.llama.cpp/ggml/src/ggml.c" "ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o.d"
+  "/home/pi/.llama.cpp/ggml/src/ggml-backend.cpp" "ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o.d"
+  "/home/pi/.llama.cpp/ggml/src/ggml-opt.cpp" "ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o.d"
+  "/home/pi/.llama.cpp/ggml/src/ggml-threading.cpp" "ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o.d"
+  "/home/pi/.llama.cpp/ggml/src/gguf.cpp" "ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o" "gcc" "ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o.d"
   )
 
 # Targets to which this target links.

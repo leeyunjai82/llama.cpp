@@ -1,8 +1,8 @@
 src/CMakeFiles/llama.dir/llama-grammar.cpp.o: \
- /home/pi/llama.cpp/src/llama-grammar.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-grammar.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/llama-grammar.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-grammar.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -32,9 +32,9 @@ src/CMakeFiles/llama.dir/llama-grammar.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/include/c++/12/map /usr/include/c++/12/bits/stl_tree.h \
  /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
@@ -199,8 +199,8 @@ src/CMakeFiles/llama.dir/llama-grammar.cpp.o: \
  /usr/include/c++/12/bits/regex.h /usr/include/c++/12/bits/regex.tcc \
  /usr/include/c++/12/bits/regex_executor.h \
  /usr/include/c++/12/bits/regex_executor.tcc /usr/include/c++/12/vector \
- /home/pi/llama.cpp/src/llama-impl.h /home/pi/llama.cpp/src/llama-vocab.h \
- /usr/include/c++/12/memory \
+ /home/pi/.llama.cpp/src/llama-impl.h \
+ /home/pi/.llama.cpp/src/llama-vocab.h /usr/include/c++/12/memory \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
  /usr/include/c++/12/bits/shared_ptr_atomic.h \
@@ -209,7 +209,7 @@ src/CMakeFiles/llama.dir/llama-grammar.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/pi/llama.cpp/src/llama-sampling.h /usr/include/c++/12/cmath \
+ /home/pi/.llama.cpp/src/llama-sampling.h /usr/include/c++/12/cmath \
  /usr/include/math.h /usr/include/aarch64-linux-gnu/bits/math-vector.h \
  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/depend.make
@@ -70,18 +70,18 @@ include examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggm
 include examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/flags.make
 
 examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o: examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/flags.make
-examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o: /home/pi/llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp
+examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o: /home/pi/.llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp
 examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o: examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/convert-llama2c-to-ggml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o -MF CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o.d -o CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o -c /home/pi/llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/convert-llama2c-to-ggml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o -MF CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o.d -o CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o -c /home/pi/.llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp
 
 examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/convert-llama2c-to-ggml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp > CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/convert-llama2c-to-ggml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp > CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.i
 
 examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/convert-llama2c-to-ggml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp -o CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/convert-llama2c-to-ggml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp -o CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.s
 
 # Object files for target llama-convert-llama2c-to-ggml
 llama__convert__llama2c__to__ggml_OBJECTS = \
@@ -98,18 +98,18 @@ bin/llama-convert-llama2c-to-ggml: bin/libggml.so
 bin/llama-convert-llama2c-to-ggml: bin/libggml-cpu.so
 bin/llama-convert-llama2c-to-ggml: bin/libggml-base.so
 bin/llama-convert-llama2c-to-ggml: examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-convert-llama2c-to-ggml"
-	cd /home/pi/llama.cpp/build/examples/convert-llama2c-to-ggml && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-convert-llama2c-to-ggml.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-convert-llama2c-to-ggml"
+	cd /home/pi/.llama.cpp/build/examples/convert-llama2c-to-ggml && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-convert-llama2c-to-ggml.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/build: bin/llama-convert-llama2c-to-ggml
 .PHONY : examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/build
 
 examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/clean:
-	cd /home/pi/llama.cpp/build/examples/convert-llama2c-to-ggml && $(CMAKE_COMMAND) -P CMakeFiles/llama-convert-llama2c-to-ggml.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/examples/convert-llama2c-to-ggml && $(CMAKE_COMMAND) -P CMakeFiles/llama-convert-llama2c-to-ggml.dir/cmake_clean.cmake
 .PHONY : examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/clean
 
 examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/examples/convert-llama2c-to-ggml /home/pi/llama.cpp/build /home/pi/llama.cpp/build/examples/convert-llama2c-to-ggml /home/pi/llama.cpp/build/examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/examples/convert-llama2c-to-ggml /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/examples/convert-llama2c-to-ggml /home/pi/.llama.cpp/build/examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/depend
 

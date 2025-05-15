@@ -1,6 +1,6 @@
 src/CMakeFiles/llama.dir/unicode-data.cpp.o: \
- /home/pi/llama.cpp/src/unicode-data.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/unicode-data.h /usr/include/c++/12/cstdint \
+ /home/pi/.llama.cpp/src/unicode-data.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/unicode-data.h /usr/include/c++/12/cstdint \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

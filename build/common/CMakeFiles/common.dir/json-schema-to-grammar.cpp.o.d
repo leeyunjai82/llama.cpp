@@ -1,8 +1,8 @@
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: \
- /home/pi/llama.cpp/common/json-schema-to-grammar.cpp \
+ /home/pi/.llama.cpp/common/json-schema-to-grammar.cpp \
  /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/common/json-schema-to-grammar.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/common/json-schema-to-grammar.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -32,7 +32,7 @@ common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/common/json.hpp /usr/include/c++/12/algorithm \
+ /home/pi/.llama.cpp/common/json.hpp /usr/include/c++/12/algorithm \
  /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -240,12 +240,12 @@ common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: \
  /usr/include/c++/12/bits/fs_dir.h /usr/include/c++/12/bits/fs_ops.h \
  /usr/include/c++/12/numeric /usr/include/c++/12/bits/stl_numeric.h \
  /usr/include/c++/12/pstl/glue_numeric_defs.h /usr/include/c++/12/any \
- /home/pi/llama.cpp/common/common.h \
- /home/pi/llama.cpp/src/../include/llama-cpp.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/common/common.h \
+ /home/pi/.llama.cpp/src/../include/llama-cpp.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/include/c++/12/set /usr/include/c++/12/bits/stl_set.h \
  /usr/include/c++/12/bits/stl_multiset.h /usr/include/c++/12/fstream \
  /usr/include/aarch64-linux-gnu/c++/12/bits/basic_file.h \

@@ -1,8 +1,8 @@
 src/CMakeFiles/llama.dir/llama-vocab.cpp.o: \
- /home/pi/llama.cpp/src/llama-vocab.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-vocab.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/llama-vocab.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-vocab.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -32,9 +32,9 @@ src/CMakeFiles/llama.dir/llama-vocab.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/include/c++/12/string \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -162,11 +162,12 @@ src/CMakeFiles/llama.dir/llama-vocab.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/pi/llama.cpp/src/llama-impl.h \
- /home/pi/llama.cpp/src/llama-model-loader.h \
- /home/pi/llama.cpp/src/llama-arch.h /home/pi/llama.cpp/src/llama-mmap.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpp.h \
- /home/pi/llama.cpp/ggml/src/../include/gguf.h \
+ /home/pi/.llama.cpp/src/llama-impl.h \
+ /home/pi/.llama.cpp/src/llama-model-loader.h \
+ /home/pi/.llama.cpp/src/llama-arch.h \
+ /home/pi/.llama.cpp/src/llama-mmap.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpp.h \
+ /home/pi/.llama.cpp/ggml/src/../include/gguf.h \
  /usr/include/c++/12/cstddef /usr/include/c++/12/map \
  /usr/include/c++/12/bits/stl_tree.h \
  /usr/include/c++/12/bits/node_handle.h \
@@ -177,7 +178,7 @@ src/CMakeFiles/llama.dir/llama-vocab.cpp.o: \
  /usr/include/c++/12/bits/hashtable_policy.h \
  /usr/include/c++/12/bits/enable_special_members.h \
  /usr/include/c++/12/bits/unordered_map.h \
- /home/pi/llama.cpp/src/unicode.h /usr/include/c++/12/algorithm \
+ /home/pi/.llama.cpp/src/unicode.h /usr/include/c++/12/algorithm \
  /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \

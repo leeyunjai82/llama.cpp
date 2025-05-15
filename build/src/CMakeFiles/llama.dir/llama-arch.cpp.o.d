@@ -1,7 +1,7 @@
 src/CMakeFiles/llama.dir/llama-arch.cpp.o: \
- /home/pi/llama.cpp/src/llama-arch.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-arch.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/llama-arch.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-arch.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -118,7 +118,7 @@ src/CMakeFiles/llama.dir/llama-arch.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/pi/llama.cpp/src/llama-impl.h /usr/include/c++/12/vector \
+ /home/pi/.llama.cpp/src/llama-impl.h /usr/include/c++/12/vector \
  /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \

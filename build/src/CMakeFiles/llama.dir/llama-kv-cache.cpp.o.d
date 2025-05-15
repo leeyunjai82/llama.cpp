@@ -1,8 +1,8 @@
 src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o: \
- /home/pi/llama.cpp/src/llama-kv-cache.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-kv-cache.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/llama-kv-cache.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-kv-cache.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -32,10 +32,10 @@ src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
- /home/pi/llama.cpp/src/llama-io.h /usr/include/c++/12/cstddef \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/src/llama-io.h /usr/include/c++/12/cstddef \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/cpu_defines.h \
@@ -122,10 +122,10 @@ src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/pi/llama.cpp/src/llama-memory.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpp.h \
- /home/pi/llama.cpp/ggml/src/../include/gguf.h /usr/include/c++/12/memory \
- /usr/include/c++/12/bits/stl_uninitialized.h \
+ /home/pi/.llama.cpp/src/llama-memory.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpp.h \
+ /home/pi/.llama.cpp/ggml/src/../include/gguf.h \
+ /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
@@ -177,13 +177,15 @@ src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o: \
  /usr/include/c++/12/bits/uniform_int_dist.h /usr/include/c++/12/set \
  /usr/include/c++/12/bits/stl_tree.h /usr/include/c++/12/bits/stl_set.h \
  /usr/include/c++/12/bits/stl_multiset.h \
- /home/pi/llama.cpp/src/llama-impl.h /home/pi/llama.cpp/src/llama-batch.h \
- /home/pi/llama.cpp/src/llama-cparams.h \
- /home/pi/llama.cpp/src/llama-model.h /home/pi/llama.cpp/src/llama-arch.h \
- /home/pi/llama.cpp/src/llama-graph.h \
- /home/pi/llama.cpp/src/llama-hparams.h \
- /home/pi/llama.cpp/src/llama-adapter.h \
- /home/pi/llama.cpp/src/llama-vocab.h /usr/include/c++/12/algorithm \
+ /home/pi/.llama.cpp/src/llama-impl.h \
+ /home/pi/.llama.cpp/src/llama-batch.h \
+ /home/pi/.llama.cpp/src/llama-cparams.h \
+ /home/pi/.llama.cpp/src/llama-model.h \
+ /home/pi/.llama.cpp/src/llama-arch.h \
+ /home/pi/.llama.cpp/src/llama-graph.h \
+ /home/pi/.llama.cpp/src/llama-hparams.h \
+ /home/pi/.llama.cpp/src/llama-adapter.h \
+ /home/pi/.llama.cpp/src/llama-vocab.h /usr/include/c++/12/algorithm \
  /usr/include/c++/12/pstl/glue_algorithm_defs.h \
  /usr/include/c++/12/cassert /usr/include/assert.h \
  /usr/include/c++/12/limits /usr/include/c++/12/map \

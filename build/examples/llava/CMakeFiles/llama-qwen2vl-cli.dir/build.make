@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/depend.make
@@ -70,18 +70,18 @@ include examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/progress.make
 include examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/flags.make
 
 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o: examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/flags.make
-examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o: /home/pi/llama.cpp/examples/llava/qwen2vl-cli.cpp
+examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o: /home/pi/.llama.cpp/examples/llava/qwen2vl-cli.cpp
 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o: examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o -MF CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o.d -o CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o -c /home/pi/llama.cpp/examples/llava/qwen2vl-cli.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o -MF CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o.d -o CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o -c /home/pi/.llama.cpp/examples/llava/qwen2vl-cli.cpp
 
 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/llava/qwen2vl-cli.cpp > CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/llava/qwen2vl-cli.cpp > CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.i
 
 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/llava/qwen2vl-cli.cpp -o CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/llava/qwen2vl-cli.cpp -o CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.s
 
 # Object files for target llama-qwen2vl-cli
 llama__qwen2vl__cli_OBJECTS = \
@@ -89,8 +89,8 @@ llama__qwen2vl__cli_OBJECTS = \
 
 # External object files for target llama-qwen2vl-cli
 llama__qwen2vl__cli_EXTERNAL_OBJECTS = \
-"/home/pi/llama.cpp/build/examples/llava/CMakeFiles/llava.dir/llava.cpp.o" \
-"/home/pi/llama.cpp/build/examples/llava/CMakeFiles/llava.dir/clip.cpp.o"
+"/home/pi/.llama.cpp/build/examples/llava/CMakeFiles/llava.dir/llava.cpp.o" \
+"/home/pi/.llama.cpp/build/examples/llava/CMakeFiles/llava.dir/clip.cpp.o"
 
 bin/llama-qwen2vl-cli: examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o
 bin/llama-qwen2vl-cli: examples/llava/CMakeFiles/llava.dir/llava.cpp.o
@@ -102,18 +102,18 @@ bin/llama-qwen2vl-cli: bin/libggml.so
 bin/llama-qwen2vl-cli: bin/libggml-cpu.so
 bin/llama-qwen2vl-cli: bin/libggml-base.so
 bin/llama-qwen2vl-cli: examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-qwen2vl-cli"
-	cd /home/pi/llama.cpp/build/examples/llava && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-qwen2vl-cli.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-qwen2vl-cli"
+	cd /home/pi/.llama.cpp/build/examples/llava && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-qwen2vl-cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build: bin/llama-qwen2vl-cli
 .PHONY : examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build
 
 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/clean:
-	cd /home/pi/llama.cpp/build/examples/llava && $(CMAKE_COMMAND) -P CMakeFiles/llama-qwen2vl-cli.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/examples/llava && $(CMAKE_COMMAND) -P CMakeFiles/llama-qwen2vl-cli.dir/cmake_clean.cmake
 .PHONY : examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/clean
 
 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/examples/llava /home/pi/llama.cpp/build /home/pi/llama.cpp/build/examples/llava /home/pi/llama.cpp/build/examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/examples/llava /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/examples/llava /home/pi/.llama.cpp/build/examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/depend
 

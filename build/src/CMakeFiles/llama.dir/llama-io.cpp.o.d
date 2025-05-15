@@ -1,6 +1,6 @@
 src/CMakeFiles/llama.dir/llama-io.cpp.o: \
- /home/pi/llama.cpp/src/llama-io.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-io.h /usr/include/c++/12/cstddef \
+ /home/pi/.llama.cpp/src/llama-io.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-io.h /usr/include/c++/12/cstddef \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

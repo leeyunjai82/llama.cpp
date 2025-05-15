@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include common/CMakeFiles/common.dir/depend.make
@@ -70,144 +70,144 @@ include common/CMakeFiles/common.dir/progress.make
 include common/CMakeFiles/common.dir/flags.make
 
 common/CMakeFiles/common.dir/arg.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/arg.cpp.o: /home/pi/llama.cpp/common/arg.cpp
+common/CMakeFiles/common.dir/arg.cpp.o: /home/pi/.llama.cpp/common/arg.cpp
 common/CMakeFiles/common.dir/arg.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/arg.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/arg.cpp.o -MF CMakeFiles/common.dir/arg.cpp.o.d -o CMakeFiles/common.dir/arg.cpp.o -c /home/pi/llama.cpp/common/arg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/arg.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/arg.cpp.o -MF CMakeFiles/common.dir/arg.cpp.o.d -o CMakeFiles/common.dir/arg.cpp.o -c /home/pi/.llama.cpp/common/arg.cpp
 
 common/CMakeFiles/common.dir/arg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/arg.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/arg.cpp > CMakeFiles/common.dir/arg.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/arg.cpp > CMakeFiles/common.dir/arg.cpp.i
 
 common/CMakeFiles/common.dir/arg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/arg.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/arg.cpp -o CMakeFiles/common.dir/arg.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/arg.cpp -o CMakeFiles/common.dir/arg.cpp.s
 
 common/CMakeFiles/common.dir/chat.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/chat.cpp.o: /home/pi/llama.cpp/common/chat.cpp
+common/CMakeFiles/common.dir/chat.cpp.o: /home/pi/.llama.cpp/common/chat.cpp
 common/CMakeFiles/common.dir/chat.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/chat.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/chat.cpp.o -MF CMakeFiles/common.dir/chat.cpp.o.d -o CMakeFiles/common.dir/chat.cpp.o -c /home/pi/llama.cpp/common/chat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/chat.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/chat.cpp.o -MF CMakeFiles/common.dir/chat.cpp.o.d -o CMakeFiles/common.dir/chat.cpp.o -c /home/pi/.llama.cpp/common/chat.cpp
 
 common/CMakeFiles/common.dir/chat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/chat.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/chat.cpp > CMakeFiles/common.dir/chat.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/chat.cpp > CMakeFiles/common.dir/chat.cpp.i
 
 common/CMakeFiles/common.dir/chat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/chat.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/chat.cpp -o CMakeFiles/common.dir/chat.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/chat.cpp -o CMakeFiles/common.dir/chat.cpp.s
 
 common/CMakeFiles/common.dir/common.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/common.cpp.o: /home/pi/llama.cpp/common/common.cpp
+common/CMakeFiles/common.dir/common.cpp.o: /home/pi/.llama.cpp/common/common.cpp
 common/CMakeFiles/common.dir/common.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/common.dir/common.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/common.cpp.o -MF CMakeFiles/common.dir/common.cpp.o.d -o CMakeFiles/common.dir/common.cpp.o -c /home/pi/llama.cpp/common/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/common.dir/common.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/common.cpp.o -MF CMakeFiles/common.dir/common.cpp.o.d -o CMakeFiles/common.dir/common.cpp.o -c /home/pi/.llama.cpp/common/common.cpp
 
 common/CMakeFiles/common.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/common.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/common.cpp > CMakeFiles/common.dir/common.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/common.cpp > CMakeFiles/common.dir/common.cpp.i
 
 common/CMakeFiles/common.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/common.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/common.cpp -o CMakeFiles/common.dir/common.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/common.cpp -o CMakeFiles/common.dir/common.cpp.s
 
 common/CMakeFiles/common.dir/console.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/console.cpp.o: /home/pi/llama.cpp/common/console.cpp
+common/CMakeFiles/common.dir/console.cpp.o: /home/pi/.llama.cpp/common/console.cpp
 common/CMakeFiles/common.dir/console.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/CMakeFiles/common.dir/console.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/console.cpp.o -MF CMakeFiles/common.dir/console.cpp.o.d -o CMakeFiles/common.dir/console.cpp.o -c /home/pi/llama.cpp/common/console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/CMakeFiles/common.dir/console.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/console.cpp.o -MF CMakeFiles/common.dir/console.cpp.o.d -o CMakeFiles/common.dir/console.cpp.o -c /home/pi/.llama.cpp/common/console.cpp
 
 common/CMakeFiles/common.dir/console.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/console.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/console.cpp > CMakeFiles/common.dir/console.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/console.cpp > CMakeFiles/common.dir/console.cpp.i
 
 common/CMakeFiles/common.dir/console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/console.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/console.cpp -o CMakeFiles/common.dir/console.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/console.cpp -o CMakeFiles/common.dir/console.cpp.s
 
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: /home/pi/llama.cpp/common/json-schema-to-grammar.cpp
+common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: /home/pi/.llama.cpp/common/json-schema-to-grammar.cpp
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -MF CMakeFiles/common.dir/json-schema-to-grammar.cpp.o.d -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -c /home/pi/llama.cpp/common/json-schema-to-grammar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -MF CMakeFiles/common.dir/json-schema-to-grammar.cpp.o.d -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -c /home/pi/.llama.cpp/common/json-schema-to-grammar.cpp
 
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/json-schema-to-grammar.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/json-schema-to-grammar.cpp > CMakeFiles/common.dir/json-schema-to-grammar.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/json-schema-to-grammar.cpp > CMakeFiles/common.dir/json-schema-to-grammar.cpp.i
 
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/json-schema-to-grammar.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/json-schema-to-grammar.cpp -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/json-schema-to-grammar.cpp -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.s
 
 common/CMakeFiles/common.dir/llguidance.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/llguidance.cpp.o: /home/pi/llama.cpp/common/llguidance.cpp
+common/CMakeFiles/common.dir/llguidance.cpp.o: /home/pi/.llama.cpp/common/llguidance.cpp
 common/CMakeFiles/common.dir/llguidance.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object common/CMakeFiles/common.dir/llguidance.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/llguidance.cpp.o -MF CMakeFiles/common.dir/llguidance.cpp.o.d -o CMakeFiles/common.dir/llguidance.cpp.o -c /home/pi/llama.cpp/common/llguidance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object common/CMakeFiles/common.dir/llguidance.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/llguidance.cpp.o -MF CMakeFiles/common.dir/llguidance.cpp.o.d -o CMakeFiles/common.dir/llguidance.cpp.o -c /home/pi/.llama.cpp/common/llguidance.cpp
 
 common/CMakeFiles/common.dir/llguidance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/llguidance.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/llguidance.cpp > CMakeFiles/common.dir/llguidance.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/llguidance.cpp > CMakeFiles/common.dir/llguidance.cpp.i
 
 common/CMakeFiles/common.dir/llguidance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/llguidance.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/llguidance.cpp -o CMakeFiles/common.dir/llguidance.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/llguidance.cpp -o CMakeFiles/common.dir/llguidance.cpp.s
 
 common/CMakeFiles/common.dir/log.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/log.cpp.o: /home/pi/llama.cpp/common/log.cpp
+common/CMakeFiles/common.dir/log.cpp.o: /home/pi/.llama.cpp/common/log.cpp
 common/CMakeFiles/common.dir/log.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object common/CMakeFiles/common.dir/log.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/log.cpp.o -MF CMakeFiles/common.dir/log.cpp.o.d -o CMakeFiles/common.dir/log.cpp.o -c /home/pi/llama.cpp/common/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object common/CMakeFiles/common.dir/log.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/log.cpp.o -MF CMakeFiles/common.dir/log.cpp.o.d -o CMakeFiles/common.dir/log.cpp.o -c /home/pi/.llama.cpp/common/log.cpp
 
 common/CMakeFiles/common.dir/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/log.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/log.cpp > CMakeFiles/common.dir/log.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/log.cpp > CMakeFiles/common.dir/log.cpp.i
 
 common/CMakeFiles/common.dir/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/log.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/log.cpp -o CMakeFiles/common.dir/log.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/log.cpp -o CMakeFiles/common.dir/log.cpp.s
 
 common/CMakeFiles/common.dir/ngram-cache.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/ngram-cache.cpp.o: /home/pi/llama.cpp/common/ngram-cache.cpp
+common/CMakeFiles/common.dir/ngram-cache.cpp.o: /home/pi/.llama.cpp/common/ngram-cache.cpp
 common/CMakeFiles/common.dir/ngram-cache.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object common/CMakeFiles/common.dir/ngram-cache.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/ngram-cache.cpp.o -MF CMakeFiles/common.dir/ngram-cache.cpp.o.d -o CMakeFiles/common.dir/ngram-cache.cpp.o -c /home/pi/llama.cpp/common/ngram-cache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object common/CMakeFiles/common.dir/ngram-cache.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/ngram-cache.cpp.o -MF CMakeFiles/common.dir/ngram-cache.cpp.o.d -o CMakeFiles/common.dir/ngram-cache.cpp.o -c /home/pi/.llama.cpp/common/ngram-cache.cpp
 
 common/CMakeFiles/common.dir/ngram-cache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/ngram-cache.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/ngram-cache.cpp > CMakeFiles/common.dir/ngram-cache.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/ngram-cache.cpp > CMakeFiles/common.dir/ngram-cache.cpp.i
 
 common/CMakeFiles/common.dir/ngram-cache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/ngram-cache.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/ngram-cache.cpp -o CMakeFiles/common.dir/ngram-cache.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/ngram-cache.cpp -o CMakeFiles/common.dir/ngram-cache.cpp.s
 
 common/CMakeFiles/common.dir/sampling.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/sampling.cpp.o: /home/pi/llama.cpp/common/sampling.cpp
+common/CMakeFiles/common.dir/sampling.cpp.o: /home/pi/.llama.cpp/common/sampling.cpp
 common/CMakeFiles/common.dir/sampling.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object common/CMakeFiles/common.dir/sampling.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/sampling.cpp.o -MF CMakeFiles/common.dir/sampling.cpp.o.d -o CMakeFiles/common.dir/sampling.cpp.o -c /home/pi/llama.cpp/common/sampling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object common/CMakeFiles/common.dir/sampling.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/sampling.cpp.o -MF CMakeFiles/common.dir/sampling.cpp.o.d -o CMakeFiles/common.dir/sampling.cpp.o -c /home/pi/.llama.cpp/common/sampling.cpp
 
 common/CMakeFiles/common.dir/sampling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/sampling.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/sampling.cpp > CMakeFiles/common.dir/sampling.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/sampling.cpp > CMakeFiles/common.dir/sampling.cpp.i
 
 common/CMakeFiles/common.dir/sampling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/sampling.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/sampling.cpp -o CMakeFiles/common.dir/sampling.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/sampling.cpp -o CMakeFiles/common.dir/sampling.cpp.s
 
 common/CMakeFiles/common.dir/speculative.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/speculative.cpp.o: /home/pi/llama.cpp/common/speculative.cpp
+common/CMakeFiles/common.dir/speculative.cpp.o: /home/pi/.llama.cpp/common/speculative.cpp
 common/CMakeFiles/common.dir/speculative.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object common/CMakeFiles/common.dir/speculative.cpp.o"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/speculative.cpp.o -MF CMakeFiles/common.dir/speculative.cpp.o.d -o CMakeFiles/common.dir/speculative.cpp.o -c /home/pi/llama.cpp/common/speculative.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object common/CMakeFiles/common.dir/speculative.cpp.o"
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/speculative.cpp.o -MF CMakeFiles/common.dir/speculative.cpp.o.d -o CMakeFiles/common.dir/speculative.cpp.o -c /home/pi/.llama.cpp/common/speculative.cpp
 
 common/CMakeFiles/common.dir/speculative.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/speculative.cpp.i"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/common/speculative.cpp > CMakeFiles/common.dir/speculative.cpp.i
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/common/speculative.cpp > CMakeFiles/common.dir/speculative.cpp.i
 
 common/CMakeFiles/common.dir/speculative.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/speculative.cpp.s"
-	cd /home/pi/llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/common/speculative.cpp -o CMakeFiles/common.dir/speculative.cpp.s
+	cd /home/pi/.llama.cpp/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/common/speculative.cpp -o CMakeFiles/common.dir/speculative.cpp.s
 
 # Object files for target common
 common_OBJECTS = \
@@ -224,7 +224,7 @@ common_OBJECTS = \
 
 # External object files for target common
 common_EXTERNAL_OBJECTS = \
-"/home/pi/llama.cpp/build/common/CMakeFiles/build_info.dir/build-info.cpp.o"
+"/home/pi/.llama.cpp/build/common/CMakeFiles/build_info.dir/build-info.cpp.o"
 
 common/libcommon.a: common/CMakeFiles/common.dir/arg.cpp.o
 common/libcommon.a: common/CMakeFiles/common.dir/chat.cpp.o
@@ -239,19 +239,19 @@ common/libcommon.a: common/CMakeFiles/common.dir/speculative.cpp.o
 common/libcommon.a: common/CMakeFiles/build_info.dir/build-info.cpp.o
 common/libcommon.a: common/CMakeFiles/common.dir/build.make
 common/libcommon.a: common/CMakeFiles/common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libcommon.a"
-	cd /home/pi/llama.cpp/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
-	cd /home/pi/llama.cpp/build/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libcommon.a"
+	cd /home/pi/.llama.cpp/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
+	cd /home/pi/.llama.cpp/build/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 common/CMakeFiles/common.dir/build: common/libcommon.a
 .PHONY : common/CMakeFiles/common.dir/build
 
 common/CMakeFiles/common.dir/clean:
-	cd /home/pi/llama.cpp/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : common/CMakeFiles/common.dir/clean
 
 common/CMakeFiles/common.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/common /home/pi/llama.cpp/build /home/pi/llama.cpp/build/common /home/pi/llama.cpp/build/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/common /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/common /home/pi/.llama.cpp/build/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : common/CMakeFiles/common.dir/depend
 

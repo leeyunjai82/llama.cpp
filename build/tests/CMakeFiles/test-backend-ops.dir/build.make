@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test-backend-ops.dir/depend.make
@@ -70,32 +70,32 @@ include tests/CMakeFiles/test-backend-ops.dir/progress.make
 include tests/CMakeFiles/test-backend-ops.dir/flags.make
 
 tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o: tests/CMakeFiles/test-backend-ops.dir/flags.make
-tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o: /home/pi/llama.cpp/tests/test-backend-ops.cpp
+tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o: /home/pi/.llama.cpp/tests/test-backend-ops.cpp
 tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o: tests/CMakeFiles/test-backend-ops.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o -MF CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o.d -o CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o -c /home/pi/llama.cpp/tests/test-backend-ops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o"
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o -MF CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o.d -o CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o -c /home/pi/.llama.cpp/tests/test-backend-ops.cpp
 
 tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.i"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/tests/test-backend-ops.cpp > CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.i
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/tests/test-backend-ops.cpp > CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.i
 
 tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.s"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/tests/test-backend-ops.cpp -o CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.s
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/tests/test-backend-ops.cpp -o CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.s
 
 tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o: tests/CMakeFiles/test-backend-ops.dir/flags.make
-tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o: /home/pi/llama.cpp/tests/get-model.cpp
+tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o: /home/pi/.llama.cpp/tests/get-model.cpp
 tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o: tests/CMakeFiles/test-backend-ops.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o -MF CMakeFiles/test-backend-ops.dir/get-model.cpp.o.d -o CMakeFiles/test-backend-ops.dir/get-model.cpp.o -c /home/pi/llama.cpp/tests/get-model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o"
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o -MF CMakeFiles/test-backend-ops.dir/get-model.cpp.o.d -o CMakeFiles/test-backend-ops.dir/get-model.cpp.o -c /home/pi/.llama.cpp/tests/get-model.cpp
 
 tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-backend-ops.dir/get-model.cpp.i"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/tests/get-model.cpp > CMakeFiles/test-backend-ops.dir/get-model.cpp.i
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/tests/get-model.cpp > CMakeFiles/test-backend-ops.dir/get-model.cpp.i
 
 tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-backend-ops.dir/get-model.cpp.s"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/tests/get-model.cpp -o CMakeFiles/test-backend-ops.dir/get-model.cpp.s
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/tests/get-model.cpp -o CMakeFiles/test-backend-ops.dir/get-model.cpp.s
 
 # Object files for target test-backend-ops
 test__backend__ops_OBJECTS = \
@@ -114,18 +114,18 @@ bin/test-backend-ops: bin/libggml.so
 bin/test-backend-ops: bin/libggml-cpu.so
 bin/test-backend-ops: bin/libggml-base.so
 bin/test-backend-ops: tests/CMakeFiles/test-backend-ops.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-backend-ops"
-	cd /home/pi/llama.cpp/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-backend-ops.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-backend-ops"
+	cd /home/pi/.llama.cpp/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-backend-ops.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test-backend-ops.dir/build: bin/test-backend-ops
 .PHONY : tests/CMakeFiles/test-backend-ops.dir/build
 
 tests/CMakeFiles/test-backend-ops.dir/clean:
-	cd /home/pi/llama.cpp/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test-backend-ops.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test-backend-ops.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test-backend-ops.dir/clean
 
 tests/CMakeFiles/test-backend-ops.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/tests /home/pi/llama.cpp/build /home/pi/llama.cpp/build/tests /home/pi/llama.cpp/build/tests/CMakeFiles/test-backend-ops.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/tests /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/tests /home/pi/.llama.cpp/build/tests/CMakeFiles/test-backend-ops.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/test-backend-ops.dir/depend
 

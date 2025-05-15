@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/depend.make
@@ -70,18 +70,18 @@ include examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/progress.make
 include examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/flags.make
 
 examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o: examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/flags.make
-examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o: /home/pi/llama.cpp/examples/gguf-hash/gguf-hash.cpp
+examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o: /home/pi/.llama.cpp/examples/gguf-hash/gguf-hash.cpp
 examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o: examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/gguf-hash && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o -MF CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o.d -o CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o -c /home/pi/llama.cpp/examples/gguf-hash/gguf-hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/gguf-hash && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o -MF CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o.d -o CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o -c /home/pi/.llama.cpp/examples/gguf-hash/gguf-hash.cpp
 
 examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/gguf-hash && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/gguf-hash/gguf-hash.cpp > CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/gguf-hash && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/gguf-hash/gguf-hash.cpp > CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.i
 
 examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/gguf-hash && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/gguf-hash/gguf-hash.cpp -o CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/gguf-hash && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/gguf-hash/gguf-hash.cpp -o CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.s
 
 # Object files for target llama-gguf-hash
 llama__gguf__hash_OBJECTS = \
@@ -89,9 +89,9 @@ llama__gguf__hash_OBJECTS = \
 
 # External object files for target llama-gguf-hash
 llama__gguf__hash_EXTERNAL_OBJECTS = \
-"/home/pi/llama.cpp/build/examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o" \
-"/home/pi/llama.cpp/build/examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o" \
-"/home/pi/llama.cpp/build/examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o"
+"/home/pi/.llama.cpp/build/examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o" \
+"/home/pi/.llama.cpp/build/examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o" \
+"/home/pi/.llama.cpp/build/examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o"
 
 bin/llama-gguf-hash: examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o
 bin/llama-gguf-hash: examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o
@@ -102,18 +102,18 @@ bin/llama-gguf-hash: bin/libggml.so
 bin/llama-gguf-hash: bin/libggml-cpu.so
 bin/llama-gguf-hash: bin/libggml-base.so
 bin/llama-gguf-hash: examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-gguf-hash"
-	cd /home/pi/llama.cpp/build/examples/gguf-hash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-gguf-hash.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-gguf-hash"
+	cd /home/pi/.llama.cpp/build/examples/gguf-hash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-gguf-hash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/build: bin/llama-gguf-hash
 .PHONY : examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/build
 
 examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/clean:
-	cd /home/pi/llama.cpp/build/examples/gguf-hash && $(CMAKE_COMMAND) -P CMakeFiles/llama-gguf-hash.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/examples/gguf-hash && $(CMAKE_COMMAND) -P CMakeFiles/llama-gguf-hash.dir/cmake_clean.cmake
 .PHONY : examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/clean
 
 examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/examples/gguf-hash /home/pi/llama.cpp/build /home/pi/llama.cpp/build/examples/gguf-hash /home/pi/llama.cpp/build/examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/examples/gguf-hash /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/examples/gguf-hash /home/pi/.llama.cpp/build/examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include examples/run/CMakeFiles/llama-run.dir/depend.make
@@ -70,32 +70,32 @@ include examples/run/CMakeFiles/llama-run.dir/progress.make
 include examples/run/CMakeFiles/llama-run.dir/flags.make
 
 examples/run/CMakeFiles/llama-run.dir/run.cpp.o: examples/run/CMakeFiles/llama-run.dir/flags.make
-examples/run/CMakeFiles/llama-run.dir/run.cpp.o: /home/pi/llama.cpp/examples/run/run.cpp
+examples/run/CMakeFiles/llama-run.dir/run.cpp.o: /home/pi/.llama.cpp/examples/run/run.cpp
 examples/run/CMakeFiles/llama-run.dir/run.cpp.o: examples/run/CMakeFiles/llama-run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/run/CMakeFiles/llama-run.dir/run.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/run/CMakeFiles/llama-run.dir/run.cpp.o -MF CMakeFiles/llama-run.dir/run.cpp.o.d -o CMakeFiles/llama-run.dir/run.cpp.o -c /home/pi/llama.cpp/examples/run/run.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/run/CMakeFiles/llama-run.dir/run.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/run/CMakeFiles/llama-run.dir/run.cpp.o -MF CMakeFiles/llama-run.dir/run.cpp.o.d -o CMakeFiles/llama-run.dir/run.cpp.o -c /home/pi/.llama.cpp/examples/run/run.cpp
 
 examples/run/CMakeFiles/llama-run.dir/run.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama-run.dir/run.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/run/run.cpp > CMakeFiles/llama-run.dir/run.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/run/run.cpp > CMakeFiles/llama-run.dir/run.cpp.i
 
 examples/run/CMakeFiles/llama-run.dir/run.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama-run.dir/run.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/run/run.cpp -o CMakeFiles/llama-run.dir/run.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/run/run.cpp -o CMakeFiles/llama-run.dir/run.cpp.s
 
 examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o: examples/run/CMakeFiles/llama-run.dir/flags.make
-examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o: /home/pi/llama.cpp/examples/run/linenoise.cpp/linenoise.cpp
+examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o: /home/pi/.llama.cpp/examples/run/linenoise.cpp/linenoise.cpp
 examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o: examples/run/CMakeFiles/llama-run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o -MF CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o.d -o CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o -c /home/pi/llama.cpp/examples/run/linenoise.cpp/linenoise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o -MF CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o.d -o CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o -c /home/pi/.llama.cpp/examples/run/linenoise.cpp/linenoise.cpp
 
 examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/run/linenoise.cpp/linenoise.cpp > CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/run/linenoise.cpp/linenoise.cpp > CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.i
 
 examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/run/linenoise.cpp/linenoise.cpp -o CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/run && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/run/linenoise.cpp/linenoise.cpp -o CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.s
 
 # Object files for target llama-run
 llama__run_OBJECTS = \
@@ -114,18 +114,18 @@ bin/llama-run: bin/libggml.so
 bin/llama-run: bin/libggml-cpu.so
 bin/llama-run: bin/libggml-base.so
 bin/llama-run: examples/run/CMakeFiles/llama-run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/llama-run"
-	cd /home/pi/llama.cpp/build/examples/run && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-run.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/llama-run"
+	cd /home/pi/.llama.cpp/build/examples/run && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/run/CMakeFiles/llama-run.dir/build: bin/llama-run
 .PHONY : examples/run/CMakeFiles/llama-run.dir/build
 
 examples/run/CMakeFiles/llama-run.dir/clean:
-	cd /home/pi/llama.cpp/build/examples/run && $(CMAKE_COMMAND) -P CMakeFiles/llama-run.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/examples/run && $(CMAKE_COMMAND) -P CMakeFiles/llama-run.dir/cmake_clean.cmake
 .PHONY : examples/run/CMakeFiles/llama-run.dir/clean
 
 examples/run/CMakeFiles/llama-run.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/examples/run /home/pi/llama.cpp/build /home/pi/llama.cpp/build/examples/run /home/pi/llama.cpp/build/examples/run/CMakeFiles/llama-run.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/examples/run /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/examples/run /home/pi/.llama.cpp/build/examples/run/CMakeFiles/llama-run.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/run/CMakeFiles/llama-run.dir/depend
 

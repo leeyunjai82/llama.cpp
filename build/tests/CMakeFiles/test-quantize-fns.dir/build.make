@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test-quantize-fns.dir/depend.make
@@ -70,32 +70,32 @@ include tests/CMakeFiles/test-quantize-fns.dir/progress.make
 include tests/CMakeFiles/test-quantize-fns.dir/flags.make
 
 tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o: tests/CMakeFiles/test-quantize-fns.dir/flags.make
-tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o: /home/pi/llama.cpp/tests/test-quantize-fns.cpp
+tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o: /home/pi/.llama.cpp/tests/test-quantize-fns.cpp
 tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o: tests/CMakeFiles/test-quantize-fns.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -MF CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o.d -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /home/pi/llama.cpp/tests/test-quantize-fns.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -MF CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o.d -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /home/pi/.llama.cpp/tests/test-quantize-fns.cpp
 
 tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/tests/test-quantize-fns.cpp > CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/tests/test-quantize-fns.cpp > CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i
 
 tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/tests/test-quantize-fns.cpp -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/tests/test-quantize-fns.cpp -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s
 
 tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o: tests/CMakeFiles/test-quantize-fns.dir/flags.make
-tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o: /home/pi/llama.cpp/tests/get-model.cpp
+tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o: /home/pi/.llama.cpp/tests/get-model.cpp
 tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o: tests/CMakeFiles/test-quantize-fns.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -MF CMakeFiles/test-quantize-fns.dir/get-model.cpp.o.d -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -c /home/pi/llama.cpp/tests/get-model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o"
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -MF CMakeFiles/test-quantize-fns.dir/get-model.cpp.o.d -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -c /home/pi/.llama.cpp/tests/get-model.cpp
 
 tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-quantize-fns.dir/get-model.cpp.i"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/tests/get-model.cpp > CMakeFiles/test-quantize-fns.dir/get-model.cpp.i
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/tests/get-model.cpp > CMakeFiles/test-quantize-fns.dir/get-model.cpp.i
 
 tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-quantize-fns.dir/get-model.cpp.s"
-	cd /home/pi/llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/tests/get-model.cpp -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.s
+	cd /home/pi/.llama.cpp/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/tests/get-model.cpp -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.s
 
 # Object files for target test-quantize-fns
 test__quantize__fns_OBJECTS = \
@@ -114,18 +114,18 @@ bin/test-quantize-fns: bin/libggml.so
 bin/test-quantize-fns: bin/libggml-cpu.so
 bin/test-quantize-fns: bin/libggml-base.so
 bin/test-quantize-fns: tests/CMakeFiles/test-quantize-fns.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-quantize-fns"
-	cd /home/pi/llama.cpp/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-quantize-fns.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-quantize-fns"
+	cd /home/pi/.llama.cpp/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-quantize-fns.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test-quantize-fns.dir/build: bin/test-quantize-fns
 .PHONY : tests/CMakeFiles/test-quantize-fns.dir/build
 
 tests/CMakeFiles/test-quantize-fns.dir/clean:
-	cd /home/pi/llama.cpp/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test-quantize-fns.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test-quantize-fns.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test-quantize-fns.dir/clean
 
 tests/CMakeFiles/test-quantize-fns.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/tests /home/pi/llama.cpp/build /home/pi/llama.cpp/build/tests /home/pi/llama.cpp/build/tests/CMakeFiles/test-quantize-fns.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/tests /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/tests /home/pi/.llama.cpp/build/tests/CMakeFiles/test-quantize-fns.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/test-quantize-fns.dir/depend
 

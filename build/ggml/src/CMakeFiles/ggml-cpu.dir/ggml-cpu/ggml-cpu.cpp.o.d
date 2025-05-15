@@ -1,8 +1,8 @@
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp \
  /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -32,14 +32,14 @@ ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
- /home/pi/llama.cpp/ggml/src/./ggml-backend-impl.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
- /home/pi/llama.cpp/ggml/src/./ggml-impl.h \
- /home/pi/llama.cpp/ggml/src/../include/gguf.h /usr/include/assert.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-backend-impl.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-impl.h \
+ /home/pi/.llama.cpp/ggml/src/../include/gguf.h /usr/include/assert.h \
  /usr/include/c++/12/math.h /usr/include/c++/12/cmath \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -134,7 +134,7 @@ ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: \
  /usr/include/c++/12/backward/binders.h \
  /usr/include/c++/12/bits/range_access.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/amx/amx.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/amx/amx.h \
  /usr/include/c++/12/cctype /usr/include/ctype.h \
  /usr/include/c++/12/string /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/char_traits.h \

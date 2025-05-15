@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi/llama.cpp/common/build-info.cpp" "common/CMakeFiles/build_info.dir/build-info.cpp.o" "gcc" "common/CMakeFiles/build_info.dir/build-info.cpp.o.d"
+  "/home/pi/.llama.cpp/common/build-info.cpp" "common/CMakeFiles/build_info.dir/build-info.cpp.o" "gcc" "common/CMakeFiles/build_info.dir/build-info.cpp.o.d"
   )
 
 # Targets to which this target links.

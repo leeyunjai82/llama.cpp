@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/llama.cpp/build/CMakeFiles /home/pi/llama.cpp/build/examples/gen-docs//CMakeFiles/progress.marks
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/llama.cpp/build/CMakeFiles 0
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/.llama.cpp/build/CMakeFiles /home/pi/.llama.cpp/build/examples/gen-docs//CMakeFiles/progress.marks
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/.llama.cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/clean
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/preinstall
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/preinstall
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/rule
 .PHONY : examples/gen-docs/CMakeFiles/llama-gen-docs.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ llama-gen-docs: examples/gen-docs/CMakeFiles/llama-gen-docs.dir/rule
 
 # fast build rule for target.
 llama-gen-docs/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build.make examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build.make examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build
 .PHONY : llama-gen-docs/fast
 
 gen-docs.o: gen-docs.cpp.o
@@ -190,7 +190,7 @@ gen-docs.o: gen-docs.cpp.o
 
 # target to build an object file
 gen-docs.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build.make examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build.make examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o
 .PHONY : gen-docs.cpp.o
 
 gen-docs.i: gen-docs.cpp.i
@@ -198,7 +198,7 @@ gen-docs.i: gen-docs.cpp.i
 
 # target to preprocess a source file
 gen-docs.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build.make examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build.make examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.i
 .PHONY : gen-docs.cpp.i
 
 gen-docs.s: gen-docs.cpp.s
@@ -206,7 +206,7 @@ gen-docs.s: gen-docs.cpp.s
 
 # target to generate assembly for a file
 gen-docs.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build.make examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build.make examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.s
 .PHONY : gen-docs.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

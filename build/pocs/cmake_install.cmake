@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/llama.cpp/pocs
+# Install script for directory: /home/pi/.llama.cpp/pocs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pi/llama.cpp/build/pocs/vdot/cmake_install.cmake")
+  include("/home/pi/.llama.cpp/build/pocs/vdot/cmake_install.cmake")
 endif()
 

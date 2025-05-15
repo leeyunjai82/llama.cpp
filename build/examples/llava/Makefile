@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/llama.cpp/build/CMakeFiles /home/pi/llama.cpp/build/examples/llava//CMakeFiles/progress.marks
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/llama.cpp/build/CMakeFiles 0
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/.llama.cpp/build/CMakeFiles /home/pi/.llama.cpp/build/examples/llava//CMakeFiles/progress.marks
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/.llama.cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/clean
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/preinstall
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/preinstall
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llava.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llava.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llava.dir/rule
 .PHONY : examples/llava/CMakeFiles/llava.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ llava: examples/llava/CMakeFiles/llava.dir/rule
 
 # fast build rule for target.
 llava/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/build
 .PHONY : llava/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llava_static.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llava_static.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llava_static.dir/rule
 .PHONY : examples/llava/CMakeFiles/llava_static.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ llava_static: examples/llava/CMakeFiles/llava_static.dir/rule
 
 # fast build rule for target.
 llava_static/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava_static.dir/build.make examples/llava/CMakeFiles/llava_static.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava_static.dir/build.make examples/llava/CMakeFiles/llava_static.dir/build
 .PHONY : llava_static/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llava_shared.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llava_shared.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llava_shared.dir/rule
 .PHONY : examples/llava/CMakeFiles/llava_shared.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ llava_shared: examples/llava/CMakeFiles/llava_shared.dir/rule
 
 # fast build rule for target.
 llava_shared/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava_shared.dir/build.make examples/llava/CMakeFiles/llava_shared.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava_shared.dir/build.make examples/llava/CMakeFiles/llava_shared.dir/build
 .PHONY : llava_shared/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/mtmd.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/mtmd.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/mtmd.dir/rule
 .PHONY : examples/llava/CMakeFiles/mtmd.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ mtmd: examples/llava/CMakeFiles/mtmd.dir/rule
 
 # fast build rule for target.
 mtmd/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/build
 .PHONY : mtmd/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/mtmd_static.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/mtmd_static.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/mtmd_static.dir/rule
 .PHONY : examples/llava/CMakeFiles/mtmd_static.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ mtmd_static: examples/llava/CMakeFiles/mtmd_static.dir/rule
 
 # fast build rule for target.
 mtmd_static/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd_static.dir/build.make examples/llava/CMakeFiles/mtmd_static.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd_static.dir/build.make examples/llava/CMakeFiles/mtmd_static.dir/build
 .PHONY : mtmd_static/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/mtmd_shared.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/mtmd_shared.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/mtmd_shared.dir/rule
 .PHONY : examples/llava/CMakeFiles/mtmd_shared.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ mtmd_shared: examples/llava/CMakeFiles/mtmd_shared.dir/rule
 
 # fast build rule for target.
 mtmd_shared/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd_shared.dir/build.make examples/llava/CMakeFiles/mtmd_shared.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd_shared.dir/build.make examples/llava/CMakeFiles/mtmd_shared.dir/build
 .PHONY : mtmd_shared/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llama-llava-cli.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-llava-cli.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-llava-cli.dir/rule
 .PHONY : examples/llava/CMakeFiles/llama-llava-cli.dir/rule
 
 # Convenience name for target.
@@ -266,12 +266,12 @@ llama-llava-cli: examples/llava/CMakeFiles/llama-llava-cli.dir/rule
 
 # fast build rule for target.
 llama-llava-cli/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-cli.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-cli.dir/build
 .PHONY : llama-llava-cli/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llama-gemma3-cli.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-gemma3-cli.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-gemma3-cli.dir/rule
 .PHONY : examples/llava/CMakeFiles/llama-gemma3-cli.dir/rule
 
 # Convenience name for target.
@@ -280,12 +280,12 @@ llama-gemma3-cli: examples/llava/CMakeFiles/llama-gemma3-cli.dir/rule
 
 # fast build rule for target.
 llama-gemma3-cli/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-gemma3-cli.dir/build.make examples/llava/CMakeFiles/llama-gemma3-cli.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-gemma3-cli.dir/build.make examples/llava/CMakeFiles/llama-gemma3-cli.dir/build
 .PHONY : llama-gemma3-cli/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llama-minicpmv-cli.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-minicpmv-cli.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-minicpmv-cli.dir/rule
 .PHONY : examples/llava/CMakeFiles/llama-minicpmv-cli.dir/rule
 
 # Convenience name for target.
@@ -294,12 +294,12 @@ llama-minicpmv-cli: examples/llava/CMakeFiles/llama-minicpmv-cli.dir/rule
 
 # fast build rule for target.
 llama-minicpmv-cli/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build.make examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build.make examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build
 .PHONY : llama-minicpmv-cli/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/rule
 .PHONY : examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ llama-qwen2vl-cli: examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/rule
 
 # fast build rule for target.
 llama-qwen2vl-cli/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build.make examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build.make examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build
 .PHONY : llama-qwen2vl-cli/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llama-mtmd-cli.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-mtmd-cli.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-mtmd-cli.dir/rule
 .PHONY : examples/llava/CMakeFiles/llama-mtmd-cli.dir/rule
 
 # Convenience name for target.
@@ -322,12 +322,12 @@ llama-mtmd-cli: examples/llava/CMakeFiles/llama-mtmd-cli.dir/rule
 
 # fast build rule for target.
 llama-mtmd-cli/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-mtmd-cli.dir/build.make examples/llava/CMakeFiles/llama-mtmd-cli.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-mtmd-cli.dir/build.make examples/llava/CMakeFiles/llama-mtmd-cli.dir/build
 .PHONY : llama-mtmd-cli/fast
 
 # Convenience name for target.
 examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/rule
 .PHONY : examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/rule
 
 # Convenience name for target.
@@ -336,7 +336,7 @@ llama-llava-clip-quantize-cli: examples/llava/CMakeFiles/llama-llava-clip-quanti
 
 # fast build rule for target.
 llama-llava-clip-quantize-cli/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build
 .PHONY : llama-llava-clip-quantize-cli/fast
 
 clip-quantize-cli.o: clip-quantize-cli.cpp.o
@@ -344,7 +344,7 @@ clip-quantize-cli.o: clip-quantize-cli.cpp.o
 
 # target to build an object file
 clip-quantize-cli.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/clip-quantize-cli.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/clip-quantize-cli.cpp.o
 .PHONY : clip-quantize-cli.cpp.o
 
 clip-quantize-cli.i: clip-quantize-cli.cpp.i
@@ -352,7 +352,7 @@ clip-quantize-cli.i: clip-quantize-cli.cpp.i
 
 # target to preprocess a source file
 clip-quantize-cli.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/clip-quantize-cli.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/clip-quantize-cli.cpp.i
 .PHONY : clip-quantize-cli.cpp.i
 
 clip-quantize-cli.s: clip-quantize-cli.cpp.s
@@ -360,7 +360,7 @@ clip-quantize-cli.s: clip-quantize-cli.cpp.s
 
 # target to generate assembly for a file
 clip-quantize-cli.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/clip-quantize-cli.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/clip-quantize-cli.cpp.s
 .PHONY : clip-quantize-cli.cpp.s
 
 clip.o: clip.cpp.o
@@ -368,8 +368,8 @@ clip.o: clip.cpp.o
 
 # target to build an object file
 clip.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/clip.cpp.o
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/clip.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o
 .PHONY : clip.cpp.o
 
 clip.i: clip.cpp.i
@@ -377,8 +377,8 @@ clip.i: clip.cpp.i
 
 # target to preprocess a source file
 clip.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/clip.cpp.i
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/clip.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/clip.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/clip.cpp.i
 .PHONY : clip.cpp.i
 
 clip.s: clip.cpp.s
@@ -386,8 +386,8 @@ clip.s: clip.cpp.s
 
 # target to generate assembly for a file
 clip.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/clip.cpp.s
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/clip.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/clip.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/clip.cpp.s
 .PHONY : clip.cpp.s
 
 deprecation-warning.o: deprecation-warning.cpp.o
@@ -395,9 +395,9 @@ deprecation-warning.o: deprecation-warning.cpp.o
 
 # target to build an object file
 deprecation-warning.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-gemma3-cli.dir/build.make examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build.make examples/llava/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-gemma3-cli.dir/build.make examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build.make examples/llava/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.o
 .PHONY : deprecation-warning.cpp.o
 
 deprecation-warning.i: deprecation-warning.cpp.i
@@ -405,9 +405,9 @@ deprecation-warning.i: deprecation-warning.cpp.i
 
 # target to preprocess a source file
 deprecation-warning.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.i
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-gemma3-cli.dir/build.make examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.i
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build.make examples/llava/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-gemma3-cli.dir/build.make examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build.make examples/llava/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.i
 .PHONY : deprecation-warning.cpp.i
 
 deprecation-warning.s: deprecation-warning.cpp.s
@@ -415,9 +415,9 @@ deprecation-warning.s: deprecation-warning.cpp.s
 
 # target to generate assembly for a file
 deprecation-warning.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.s
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-gemma3-cli.dir/build.make examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.s
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build.make examples/llava/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-llava-cli.dir/build.make examples/llava/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-gemma3-cli.dir/build.make examples/llava/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-minicpmv-cli.dir/build.make examples/llava/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.s
 .PHONY : deprecation-warning.cpp.s
 
 llava.o: llava.cpp.o
@@ -425,7 +425,7 @@ llava.o: llava.cpp.o
 
 # target to build an object file
 llava.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/llava.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/llava.cpp.o
 .PHONY : llava.cpp.o
 
 llava.i: llava.cpp.i
@@ -433,7 +433,7 @@ llava.i: llava.cpp.i
 
 # target to preprocess a source file
 llava.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/llava.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/llava.cpp.i
 .PHONY : llava.cpp.i
 
 llava.s: llava.cpp.s
@@ -441,7 +441,7 @@ llava.s: llava.cpp.s
 
 # target to generate assembly for a file
 llava.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/llava.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llava.dir/build.make examples/llava/CMakeFiles/llava.dir/llava.cpp.s
 .PHONY : llava.cpp.s
 
 mtmd-cli.o: mtmd-cli.cpp.o
@@ -449,7 +449,7 @@ mtmd-cli.o: mtmd-cli.cpp.o
 
 # target to build an object file
 mtmd-cli.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-mtmd-cli.dir/build.make examples/llava/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-mtmd-cli.dir/build.make examples/llava/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o
 .PHONY : mtmd-cli.cpp.o
 
 mtmd-cli.i: mtmd-cli.cpp.i
@@ -457,7 +457,7 @@ mtmd-cli.i: mtmd-cli.cpp.i
 
 # target to preprocess a source file
 mtmd-cli.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-mtmd-cli.dir/build.make examples/llava/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-mtmd-cli.dir/build.make examples/llava/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.i
 .PHONY : mtmd-cli.cpp.i
 
 mtmd-cli.s: mtmd-cli.cpp.s
@@ -465,7 +465,7 @@ mtmd-cli.s: mtmd-cli.cpp.s
 
 # target to generate assembly for a file
 mtmd-cli.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-mtmd-cli.dir/build.make examples/llava/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-mtmd-cli.dir/build.make examples/llava/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.s
 .PHONY : mtmd-cli.cpp.s
 
 mtmd.o: mtmd.cpp.o
@@ -473,7 +473,7 @@ mtmd.o: mtmd.cpp.o
 
 # target to build an object file
 mtmd.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o
 .PHONY : mtmd.cpp.o
 
 mtmd.i: mtmd.cpp.i
@@ -481,7 +481,7 @@ mtmd.i: mtmd.cpp.i
 
 # target to preprocess a source file
 mtmd.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.i
 .PHONY : mtmd.cpp.i
 
 mtmd.s: mtmd.cpp.s
@@ -489,7 +489,7 @@ mtmd.s: mtmd.cpp.s
 
 # target to generate assembly for a file
 mtmd.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/mtmd.dir/build.make examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.s
 .PHONY : mtmd.cpp.s
 
 qwen2vl-cli.o: qwen2vl-cli.cpp.o
@@ -497,7 +497,7 @@ qwen2vl-cli.o: qwen2vl-cli.cpp.o
 
 # target to build an object file
 qwen2vl-cli.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build.make examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build.make examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o
 .PHONY : qwen2vl-cli.cpp.o
 
 qwen2vl-cli.i: qwen2vl-cli.cpp.i
@@ -505,7 +505,7 @@ qwen2vl-cli.i: qwen2vl-cli.cpp.i
 
 # target to preprocess a source file
 qwen2vl-cli.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build.make examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build.make examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.i
 .PHONY : qwen2vl-cli.cpp.i
 
 qwen2vl-cli.s: qwen2vl-cli.cpp.s
@@ -513,7 +513,7 @@ qwen2vl-cli.s: qwen2vl-cli.cpp.s
 
 # target to generate assembly for a file
 qwen2vl-cli.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build.make examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/build.make examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.s
 .PHONY : qwen2vl-cli.cpp.s
 
 # Help Target
@@ -573,6 +573,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

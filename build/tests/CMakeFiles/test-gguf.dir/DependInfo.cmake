@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi/llama.cpp/tests/get-model.cpp" "tests/CMakeFiles/test-gguf.dir/get-model.cpp.o" "gcc" "tests/CMakeFiles/test-gguf.dir/get-model.cpp.o.d"
-  "/home/pi/llama.cpp/tests/test-gguf.cpp" "tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.o" "gcc" "tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.o.d"
+  "/home/pi/.llama.cpp/tests/get-model.cpp" "tests/CMakeFiles/test-gguf.dir/get-model.cpp.o" "gcc" "tests/CMakeFiles/test-gguf.dir/get-model.cpp.o.d"
+  "/home/pi/.llama.cpp/tests/test-gguf.cpp" "tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.o" "gcc" "tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pi/llama.cpp/build/common/CMakeFiles/common.dir/DependInfo.cmake"
-  "/home/pi/llama.cpp/build/src/CMakeFiles/llama.dir/DependInfo.cmake"
-  "/home/pi/llama.cpp/build/ggml/src/CMakeFiles/ggml.dir/DependInfo.cmake"
-  "/home/pi/llama.cpp/build/ggml/src/CMakeFiles/ggml-cpu.dir/DependInfo.cmake"
-  "/home/pi/llama.cpp/build/ggml/src/CMakeFiles/ggml-base.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/src/CMakeFiles/llama.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/ggml/src/CMakeFiles/ggml.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/ggml/src/CMakeFiles/ggml-cpu.dir/DependInfo.cmake"
+  "/home/pi/.llama.cpp/build/ggml/src/CMakeFiles/ggml-base.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,7 +1,7 @@
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp \
  /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -18,8 +18,8 @@ ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
- /home/pi/llama.cpp/ggml/src/./ggml-impl.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-impl.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h /usr/include/stdio.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdarg.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
@@ -33,7 +33,7 @@ ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/gguf.h /usr/include/assert.h \
+ /home/pi/.llama.cpp/ggml/src/../include/gguf.h /usr/include/assert.h \
  /usr/include/c++/12/math.h /usr/include/c++/12/cmath \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -128,9 +128,9 @@ ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: \
  /usr/include/c++/12/backward/binders.h \
  /usr/include/c++/12/bits/range_access.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
- /home/pi/llama.cpp/ggml/src/./ggml-quants.h \
- /home/pi/llama.cpp/ggml/src/./ggml-common.h /usr/include/c++/12/atomic \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-quants.h \
+ /home/pi/.llama.cpp/ggml/src/./ggml-common.h /usr/include/c++/12/atomic \
  /usr/include/c++/12/bits/atomic_base.h \
  /usr/include/c++/12/bits/atomic_lockfree_defines.h \
  /usr/include/c++/12/array /usr/include/c++/12/compare

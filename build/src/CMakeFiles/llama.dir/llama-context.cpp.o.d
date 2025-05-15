@@ -1,8 +1,8 @@
 src/CMakeFiles/llama.dir/llama-context.cpp.o: \
- /home/pi/llama.cpp/src/llama-context.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-context.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/llama-context.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-context.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -32,10 +32,10 @@ src/CMakeFiles/llama.dir/llama-context.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
- /home/pi/llama.cpp/src/llama-batch.h /usr/include/c++/12/array \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/src/llama-batch.h /usr/include/c++/12/array \
  /usr/include/c++/12/compare /usr/include/c++/12/initializer_list \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -74,9 +74,10 @@ src/CMakeFiles/llama.dir/llama-context.cpp.o: \
  /usr/include/c++/12/bits/stl_function.h \
  /usr/include/c++/12/backward/binders.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/pi/llama.cpp/src/llama-cparams.h /usr/include/c++/12/cstdint \
- /home/pi/llama.cpp/src/llama-graph.h /home/pi/llama.cpp/src/llama-arch.h \
- /usr/include/c++/12/string /usr/include/c++/12/bits/stringfwd.h \
+ /home/pi/.llama.cpp/src/llama-cparams.h /usr/include/c++/12/cstdint \
+ /home/pi/.llama.cpp/src/llama-graph.h \
+ /home/pi/.llama.cpp/src/llama-arch.h /usr/include/c++/12/string \
+ /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/char_traits.h \
  /usr/include/c++/12/bits/postypes.h /usr/include/c++/12/cwchar \
  /usr/include/wchar.h /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
@@ -127,11 +128,11 @@ src/CMakeFiles/llama.dir/llama-context.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/pi/llama.cpp/src/llama-hparams.h \
- /home/pi/llama.cpp/src/llama-adapter.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpp.h \
- /home/pi/llama.cpp/ggml/src/../include/gguf.h /usr/include/c++/12/memory \
- /usr/include/c++/12/bits/stl_tempbuf.h \
+ /home/pi/.llama.cpp/src/llama-hparams.h \
+ /home/pi/.llama.cpp/src/llama-adapter.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpp.h \
+ /home/pi/.llama.cpp/ggml/src/../include/gguf.h \
+ /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
  /usr/include/c++/12/bits/uses_allocator.h \
@@ -181,12 +182,12 @@ src/CMakeFiles/llama.dir/llama-context.cpp.o: \
  /usr/include/c++/12/bits/uniform_int_dist.h /usr/include/c++/12/map \
  /usr/include/c++/12/bits/stl_map.h \
  /usr/include/c++/12/bits/stl_multimap.h \
- /home/pi/llama.cpp/src/llama-impl.h /home/pi/llama.cpp/src/llama-io.h \
- /usr/include/c++/12/cstddef /home/pi/llama.cpp/src/llama-mmap.h \
- /home/pi/llama.cpp/src/llama-model.h \
- /home/pi/llama.cpp/src/llama-memory.h \
- /home/pi/llama.cpp/src/llama-vocab.h \
- /home/pi/llama.cpp/src/llama-kv-cache.h /usr/include/c++/12/cassert \
+ /home/pi/.llama.cpp/src/llama-impl.h /home/pi/.llama.cpp/src/llama-io.h \
+ /usr/include/c++/12/cstddef /home/pi/.llama.cpp/src/llama-mmap.h \
+ /home/pi/.llama.cpp/src/llama-model.h \
+ /home/pi/.llama.cpp/src/llama-memory.h \
+ /home/pi/.llama.cpp/src/llama-vocab.h \
+ /home/pi/.llama.cpp/src/llama-kv-cache.h /usr/include/c++/12/cassert \
  /usr/include/assert.h /usr/include/c++/12/cstring /usr/include/string.h \
  /usr/include/strings.h /usr/include/c++/12/stdexcept \
  /usr/include/c++/12/cinttypes /usr/include/inttypes.h \

@@ -1,6 +1,6 @@
 ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: \
- /home/pi/llama.cpp/ggml/src/ggml-quants.c /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/ggml/src/ggml-common.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-quants.c /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-common.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -16,8 +16,8 @@ ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
- /home/pi/llama.cpp/ggml/src/ggml-quants.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-quants.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h /usr/include/stdio.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdarg.h \
@@ -32,8 +32,8 @@ ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/ggml-impl.h \
- /home/pi/llama.cpp/ggml/src/../include/gguf.h /usr/include/assert.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-impl.h \
+ /home/pi/.llama.cpp/ggml/src/../include/gguf.h /usr/include/assert.h \
  /usr/include/math.h /usr/include/aarch64-linux-gnu/bits/math-vector.h \
  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
@@ -75,8 +75,8 @@ ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_fp16.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_bf16.h \
- /home/pi/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/float.h

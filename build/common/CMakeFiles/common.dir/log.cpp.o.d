@@ -1,6 +1,7 @@
-common/CMakeFiles/common.dir/log.cpp.o: /home/pi/llama.cpp/common/log.cpp \
- /usr/include/stdc-predef.h /home/pi/llama.cpp/common/log.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+common/CMakeFiles/common.dir/log.cpp.o: \
+ /home/pi/.llama.cpp/common/log.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/common/log.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \

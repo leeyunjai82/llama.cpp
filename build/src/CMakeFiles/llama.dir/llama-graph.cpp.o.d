@@ -1,7 +1,8 @@
 src/CMakeFiles/llama.dir/llama-graph.cpp.o: \
- /home/pi/llama.cpp/src/llama-graph.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/src/llama-graph.h /home/pi/llama.cpp/src/llama-arch.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/llama-graph.cpp /usr/include/stdc-predef.h \
+ /home/pi/.llama.cpp/src/llama-graph.h \
+ /home/pi/.llama.cpp/src/llama-arch.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
@@ -118,16 +119,16 @@ src/CMakeFiles/llama.dir/llama-graph.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/12/bits/charconv.h \
  /usr/include/c++/12/bits/basic_string.tcc \
- /home/pi/llama.cpp/src/llama-hparams.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/src/llama-hparams.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/include/c++/12/array /usr/include/c++/12/compare \
- /home/pi/llama.cpp/src/llama-adapter.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpp.h \
- /home/pi/llama.cpp/ggml/src/../include/gguf.h /usr/include/c++/12/memory \
- /usr/include/c++/12/bits/stl_uninitialized.h \
+ /home/pi/.llama.cpp/src/llama-adapter.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpp.h \
+ /home/pi/.llama.cpp/ggml/src/../include/gguf.h \
+ /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
@@ -179,11 +180,12 @@ src/CMakeFiles/llama.dir/llama-graph.cpp.o: \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \
  /usr/include/c++/12/bits/uniform_int_dist.h \
- /home/pi/llama.cpp/src/llama-impl.h /home/pi/llama.cpp/src/llama-batch.h \
- /home/pi/llama.cpp/src/llama-cparams.h \
- /home/pi/llama.cpp/src/llama-kv-cache.h \
- /home/pi/llama.cpp/src/llama-io.h /usr/include/c++/12/cstddef \
- /home/pi/llama.cpp/src/llama-memory.h /usr/include/c++/12/cassert \
+ /home/pi/.llama.cpp/src/llama-impl.h \
+ /home/pi/.llama.cpp/src/llama-batch.h \
+ /home/pi/.llama.cpp/src/llama-cparams.h \
+ /home/pi/.llama.cpp/src/llama-kv-cache.h \
+ /home/pi/.llama.cpp/src/llama-io.h /usr/include/c++/12/cstddef \
+ /home/pi/.llama.cpp/src/llama-memory.h /usr/include/c++/12/cassert \
  /usr/include/assert.h /usr/include/c++/12/cmath /usr/include/math.h \
  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \

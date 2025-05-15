@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/llama.cpp/build/CMakeFiles /home/pi/llama.cpp/build/examples/batched//CMakeFiles/progress.marks
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/llama.cpp/build/CMakeFiles 0
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/.llama.cpp/build/CMakeFiles /home/pi/.llama.cpp/build/examples/batched//CMakeFiles/progress.marks
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/.llama.cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/clean
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/preinstall
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/preinstall
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/batched/CMakeFiles/llama-batched.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/CMakeFiles/llama-batched.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/batched/CMakeFiles/llama-batched.dir/rule
 .PHONY : examples/batched/CMakeFiles/llama-batched.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ llama-batched: examples/batched/CMakeFiles/llama-batched.dir/rule
 
 # fast build rule for target.
 llama-batched/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/batched/CMakeFiles/llama-batched.dir/build.make examples/batched/CMakeFiles/llama-batched.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/batched/CMakeFiles/llama-batched.dir/build.make examples/batched/CMakeFiles/llama-batched.dir/build
 .PHONY : llama-batched/fast
 
 batched.o: batched.cpp.o
@@ -190,7 +190,7 @@ batched.o: batched.cpp.o
 
 # target to build an object file
 batched.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/batched/CMakeFiles/llama-batched.dir/build.make examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/batched/CMakeFiles/llama-batched.dir/build.make examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o
 .PHONY : batched.cpp.o
 
 batched.i: batched.cpp.i
@@ -198,7 +198,7 @@ batched.i: batched.cpp.i
 
 # target to preprocess a source file
 batched.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/batched/CMakeFiles/llama-batched.dir/build.make examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/batched/CMakeFiles/llama-batched.dir/build.make examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.i
 .PHONY : batched.cpp.i
 
 batched.s: batched.cpp.s
@@ -206,7 +206,7 @@ batched.s: batched.cpp.s
 
 # target to generate assembly for a file
 batched.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/batched/CMakeFiles/llama-batched.dir/build.make examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/batched/CMakeFiles/llama-batched.dir/build.make examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.s
 .PHONY : batched.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

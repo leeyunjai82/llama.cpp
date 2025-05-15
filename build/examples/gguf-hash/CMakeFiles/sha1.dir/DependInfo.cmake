@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi/llama.cpp/examples/gguf-hash/deps/sha1/sha1.c" "examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o" "gcc" "examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o.d"
+  "/home/pi/.llama.cpp/examples/gguf-hash/deps/sha1/sha1.c" "examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o" "gcc" "examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o.d"
   )
 
 # Targets to which this target links.

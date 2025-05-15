@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include examples/llava/CMakeFiles/mtmd.dir/depend.make
@@ -70,32 +70,32 @@ include examples/llava/CMakeFiles/mtmd.dir/progress.make
 include examples/llava/CMakeFiles/mtmd.dir/flags.make
 
 examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o: examples/llava/CMakeFiles/mtmd.dir/flags.make
-examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o: /home/pi/llama.cpp/examples/llava/mtmd.cpp
+examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o: /home/pi/.llama.cpp/examples/llava/mtmd.cpp
 examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o: examples/llava/CMakeFiles/mtmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o -MF CMakeFiles/mtmd.dir/mtmd.cpp.o.d -o CMakeFiles/mtmd.dir/mtmd.cpp.o -c /home/pi/llama.cpp/examples/llava/mtmd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o -MF CMakeFiles/mtmd.dir/mtmd.cpp.o.d -o CMakeFiles/mtmd.dir/mtmd.cpp.o -c /home/pi/.llama.cpp/examples/llava/mtmd.cpp
 
 examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mtmd.dir/mtmd.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/llava/mtmd.cpp > CMakeFiles/mtmd.dir/mtmd.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/llava/mtmd.cpp > CMakeFiles/mtmd.dir/mtmd.cpp.i
 
 examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mtmd.dir/mtmd.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/llava/mtmd.cpp -o CMakeFiles/mtmd.dir/mtmd.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/llava/mtmd.cpp -o CMakeFiles/mtmd.dir/mtmd.cpp.s
 
 examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o: examples/llava/CMakeFiles/mtmd.dir/flags.make
-examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o: /home/pi/llama.cpp/examples/llava/clip.cpp
+examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o: /home/pi/.llama.cpp/examples/llava/clip.cpp
 examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o: examples/llava/CMakeFiles/mtmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o -MF CMakeFiles/mtmd.dir/clip.cpp.o.d -o CMakeFiles/mtmd.dir/clip.cpp.o -c /home/pi/llama.cpp/examples/llava/clip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o -MF CMakeFiles/mtmd.dir/clip.cpp.o.d -o CMakeFiles/mtmd.dir/clip.cpp.o -c /home/pi/.llama.cpp/examples/llava/clip.cpp
 
 examples/llava/CMakeFiles/mtmd.dir/clip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mtmd.dir/clip.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/llava/clip.cpp > CMakeFiles/mtmd.dir/clip.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/llava/clip.cpp > CMakeFiles/mtmd.dir/clip.cpp.i
 
 examples/llava/CMakeFiles/mtmd.dir/clip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mtmd.dir/clip.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/llava/clip.cpp -o CMakeFiles/mtmd.dir/clip.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/llava && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/llava/clip.cpp -o CMakeFiles/mtmd.dir/clip.cpp.s
 
 mtmd: examples/llava/CMakeFiles/mtmd.dir/mtmd.cpp.o
 mtmd: examples/llava/CMakeFiles/mtmd.dir/clip.cpp.o
@@ -107,10 +107,10 @@ examples/llava/CMakeFiles/mtmd.dir/build: mtmd
 .PHONY : examples/llava/CMakeFiles/mtmd.dir/build
 
 examples/llava/CMakeFiles/mtmd.dir/clean:
-	cd /home/pi/llama.cpp/build/examples/llava && $(CMAKE_COMMAND) -P CMakeFiles/mtmd.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/examples/llava && $(CMAKE_COMMAND) -P CMakeFiles/mtmd.dir/cmake_clean.cmake
 .PHONY : examples/llava/CMakeFiles/mtmd.dir/clean
 
 examples/llava/CMakeFiles/mtmd.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/examples/llava /home/pi/llama.cpp/build /home/pi/llama.cpp/build/examples/llava /home/pi/llama.cpp/build/examples/llava/CMakeFiles/mtmd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/examples/llava /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/examples/llava /home/pi/.llama.cpp/build/examples/llava/CMakeFiles/mtmd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/llava/CMakeFiles/mtmd.dir/depend
 

@@ -1,7 +1,7 @@
 ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o: \
- /home/pi/llama.cpp/ggml/src/ggml-threading.cpp \
- /usr/include/stdc-predef.h /home/pi/llama.cpp/ggml/src/ggml-threading.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/ggml/src/ggml-threading.cpp \
+ /usr/include/stdc-predef.h /home/pi/.llama.cpp/ggml/src/ggml-threading.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \

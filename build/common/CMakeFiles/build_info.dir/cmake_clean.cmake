@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/pi/llama.cpp/common/build-info.cpp"
+  "/home/pi/.llama.cpp/common/build-info.cpp"
   "CMakeFiles/build_info.dir/build-info.cpp.o"
   "CMakeFiles/build_info.dir/build-info.cpp.o.d"
 )

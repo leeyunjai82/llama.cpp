@@ -1,37 +1,37 @@
 Performing C++ SOURCE FILE Test GGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E failed with the following output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-DFPdnl
+Change Dir: /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-YkEcLM
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85243/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85243.dir/build.make CMakeFiles/cmTC_85243.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-DFPdnl'
-Building CXX object CMakeFiles/cmTC_85243.dir/src.cxx.o
-/usr/bin/c++ -DGGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E  -mfp16-format=ieee -std=gnu++17 -o CMakeFiles/cmTC_85243.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-DFPdnl/src.cxx
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07431/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07431.dir/build.make CMakeFiles/cmTC_07431.dir/build
+gmake[1]: Entering directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-YkEcLM'
+Building CXX object CMakeFiles/cmTC_07431.dir/src.cxx.o
+/usr/bin/c++ -DGGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E  -mfp16-format=ieee -std=gnu++17 -o CMakeFiles/cmTC_07431.dir/src.cxx.o -c /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-YkEcLM/src.cxx
 c++: error: unrecognized command-line option '-mfp16-format=ieee'
-gmake[1]: *** [CMakeFiles/cmTC_85243.dir/build.make:78: CMakeFiles/cmTC_85243.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-DFPdnl'
-gmake: *** [Makefile:127: cmTC_85243/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_07431.dir/build.make:78: CMakeFiles/cmTC_07431.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-YkEcLM'
+gmake: *** [Makefile:127: cmTC_07431/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 
 Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_dotprod failed with the following compile output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-23jNaO
+Change Dir: /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-T6yQ1B
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65b31/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65b31.dir/build.make CMakeFiles/cmTC_65b31.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-23jNaO'
-Building CXX object CMakeFiles/cmTC_65b31.dir/src.cxx.o
-/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_dotprod  -mcpu=cortex-a72+dotprod -std=gnu++17 -o CMakeFiles/cmTC_65b31.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-23jNaO/src.cxx
-In file included from /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-23jNaO/src.cxx:1:
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0d8c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0d8c9.dir/build.make CMakeFiles/cmTC_0d8c9.dir/build
+gmake[1]: Entering directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-T6yQ1B'
+Building CXX object CMakeFiles/cmTC_0d8c9.dir/src.cxx.o
+/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_dotprod  -mcpu=cortex-a72+dotprod -std=gnu++17 -o CMakeFiles/cmTC_0d8c9.dir/src.cxx.o -c /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-T6yQ1B/src.cxx
+In file included from /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-T6yQ1B/src.cxx:1:
 /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function ‘int main()’:
 /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29527:1: error: inlining failed in call to ‘always_inline’ ‘int32x4_t vdotq_s32(int32x4_t, int8x16_t, int8x16_t)’: target specific option mismatch
 29527 | vdotq_s32 (int32x4_t __r, int8x16_t __a, int8x16_t __b)
       | ^~~~~~~~~
-/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-23jNaO/src.cxx:2:65: note: called from here
+/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-T6yQ1B/src.cxx:2:65: note: called from here
     2 | int main() { int8x16_t _a, _b; volatile int32x4_t _s = vdotq_s32(_s, _a, _b); return 0; }
       |                                                        ~~~~~~~~~^~~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_65b31.dir/build.make:78: CMakeFiles/cmTC_65b31.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-23jNaO'
-gmake: *** [Makefile:127: cmTC_65b31/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_0d8c9.dir/build.make:78: CMakeFiles/cmTC_0d8c9.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-T6yQ1B'
+gmake: *** [Makefile:127: cmTC_0d8c9/fast] Error 2
 
 
 ...and run output:
@@ -42,93 +42,23 @@ Source file was:
 int main() { int8x16_t _a, _b; volatile int32x4_t _s = vdotq_s32(_s, _a, _b); return 0; }
 
 Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_i8mm failed with the following compile output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-h55pDK
+Change Dir: /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KXbAJf
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6903/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6903.dir/build.make CMakeFiles/cmTC_a6903.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-h55pDK'
-Building CXX object CMakeFiles/cmTC_a6903.dir/src.cxx.o
-/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_i8mm  -mcpu=cortex-a72+i8mm -std=gnu++17 -o CMakeFiles/cmTC_a6903.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-h55pDK/src.cxx
-In file included from /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-h55pDK/src.cxx:1:
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_89d0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89d0d.dir/build.make CMakeFiles/cmTC_89d0d.dir/build
+gmake[1]: Entering directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KXbAJf'
+Building CXX object CMakeFiles/cmTC_89d0d.dir/src.cxx.o
+/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_i8mm  -mcpu=cortex-a72+i8mm -std=gnu++17 -o CMakeFiles/cmTC_89d0d.dir/src.cxx.o -c /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KXbAJf/src.cxx
+In file included from /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KXbAJf/src.cxx:1:
 /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function ‘int main()’:
 /usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:31774:1: error: inlining failed in call to ‘always_inline’ ‘int32x4_t vmmlaq_s32(int32x4_t, int8x16_t, int8x16_t)’: target specific option mismatch
 31774 | vmmlaq_s32 (int32x4_t __r, int8x16_t __a, int8x16_t __b)
       | ^~~~~~~~~~
-/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-h55pDK/src.cxx:2:66: note: called from here
+/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KXbAJf/src.cxx:2:66: note: called from here
     2 | int main() { int8x16_t _a, _b; volatile int32x4_t _s = vmmlaq_s32(_s, _a, _b); return 0; }
       |                                                        ~~~~~~~~~~^~~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_a6903.dir/build.make:78: CMakeFiles/cmTC_a6903.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-h55pDK'
-gmake: *** [Makefile:127: cmTC_a6903/fast] Error 2
-
-
-...and run output:
-
-Return value: 1
-Source file was:
-#include <arm_neon.h>
-int main() { int8x16_t _a, _b; volatile int32x4_t _s = vmmlaq_s32(_s, _a, _b); return 0; }
-
-Performing C++ SOURCE FILE Test GGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E failed with the following output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-RhqCTF
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3dae2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3dae2.dir/build.make CMakeFiles/cmTC_3dae2.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-RhqCTF'
-Building CXX object CMakeFiles/cmTC_3dae2.dir/src.cxx.o
-/usr/bin/c++ -DGGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E  -mfp16-format=ieee -std=gnu++17 -o CMakeFiles/cmTC_3dae2.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-RhqCTF/src.cxx
-c++: error: unrecognized command-line option '-mfp16-format=ieee'
-gmake[1]: *** [CMakeFiles/cmTC_3dae2.dir/build.make:78: CMakeFiles/cmTC_3dae2.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-RhqCTF'
-gmake: *** [Makefile:127: cmTC_3dae2/fast] Error 2
-
-
-Source file was:
-int main() { return 0; }
-
-Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_dotprod failed with the following compile output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-NOwb8o
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c571/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c571.dir/build.make CMakeFiles/cmTC_7c571.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-NOwb8o'
-Building CXX object CMakeFiles/cmTC_7c571.dir/src.cxx.o
-/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_dotprod  -mcpu=cortex-a72+dotprod -std=gnu++17 -o CMakeFiles/cmTC_7c571.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-NOwb8o/src.cxx
-In file included from /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-NOwb8o/src.cxx:1:
-/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function ‘int main()’:
-/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:29527:1: error: inlining failed in call to ‘always_inline’ ‘int32x4_t vdotq_s32(int32x4_t, int8x16_t, int8x16_t)’: target specific option mismatch
-29527 | vdotq_s32 (int32x4_t __r, int8x16_t __a, int8x16_t __b)
-      | ^~~~~~~~~
-/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-NOwb8o/src.cxx:2:65: note: called from here
-    2 | int main() { int8x16_t _a, _b; volatile int32x4_t _s = vdotq_s32(_s, _a, _b); return 0; }
-      |                                                        ~~~~~~~~~^~~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_7c571.dir/build.make:78: CMakeFiles/cmTC_7c571.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-NOwb8o'
-gmake: *** [Makefile:127: cmTC_7c571/fast] Error 2
-
-
-...and run output:
-
-Return value: 1
-Source file was:
-#include <arm_neon.h>
-int main() { int8x16_t _a, _b; volatile int32x4_t _s = vdotq_s32(_s, _a, _b); return 0; }
-
-Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_i8mm failed with the following compile output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-XM9osA
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33fb0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33fb0.dir/build.make CMakeFiles/cmTC_33fb0.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-XM9osA'
-Building CXX object CMakeFiles/cmTC_33fb0.dir/src.cxx.o
-/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_i8mm  -mcpu=cortex-a72+i8mm -std=gnu++17 -o CMakeFiles/cmTC_33fb0.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-XM9osA/src.cxx
-In file included from /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-XM9osA/src.cxx:1:
-/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h: In function ‘int main()’:
-/usr/lib/gcc/aarch64-linux-gnu/12/include/arm_neon.h:31774:1: error: inlining failed in call to ‘always_inline’ ‘int32x4_t vmmlaq_s32(int32x4_t, int8x16_t, int8x16_t)’: target specific option mismatch
-31774 | vmmlaq_s32 (int32x4_t __r, int8x16_t __a, int8x16_t __b)
-      | ^~~~~~~~~~
-/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-XM9osA/src.cxx:2:66: note: called from here
-    2 | int main() { int8x16_t _a, _b; volatile int32x4_t _s = vmmlaq_s32(_s, _a, _b); return 0; }
-      |                                                        ~~~~~~~~~~^~~~~~~~~~~~
-gmake[1]: *** [CMakeFiles/cmTC_33fb0.dir/build.make:78: CMakeFiles/cmTC_33fb0.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-XM9osA'
-gmake: *** [Makefile:127: cmTC_33fb0/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_89d0d.dir/build.make:78: CMakeFiles/cmTC_89d0d.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KXbAJf'
+gmake: *** [Makefile:127: cmTC_89d0d/fast] Error 2
 
 
 ...and run output:
@@ -139,16 +69,16 @@ Source file was:
 int main() { int8x16_t _a, _b; volatile int32x4_t _s = vmmlaq_s32(_s, _a, _b); return 0; }
 
 Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_sve failed with the following compile output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vggDKA
+Change Dir: /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-L34nqW
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3677c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3677c.dir/build.make CMakeFiles/cmTC_3677c.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vggDKA'
-Building CXX object CMakeFiles/cmTC_3677c.dir/src.cxx.o
-/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_sve  -mcpu=cortex-a72+sve -std=gnu++17 -o CMakeFiles/cmTC_3677c.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vggDKA/src.cxx
-Linking CXX executable cmTC_3677c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3677c.dir/link.txt --verbose=1
-/usr/bin/c++  -mcpu=cortex-a72+sve CMakeFiles/cmTC_3677c.dir/src.cxx.o -o cmTC_3677c 
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vggDKA'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03c0b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03c0b.dir/build.make CMakeFiles/cmTC_03c0b.dir/build
+gmake[1]: Entering directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-L34nqW'
+Building CXX object CMakeFiles/cmTC_03c0b.dir/src.cxx.o
+/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_sve  -mcpu=cortex-a72+sve -std=gnu++17 -o CMakeFiles/cmTC_03c0b.dir/src.cxx.o -c /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-L34nqW/src.cxx
+Linking CXX executable cmTC_03c0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03c0b.dir/link.txt --verbose=1
+/usr/bin/c++  -mcpu=cortex-a72+sve CMakeFiles/cmTC_03c0b.dir/src.cxx.o -o cmTC_03c0b 
+gmake[1]: Leaving directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-L34nqW'
 
 
 ...and run output:
@@ -159,17 +89,17 @@ Source file was:
 int main()  { svfloat32_t _a, _b; volatile svfloat32_t _c = svadd_f32_z(svptrue_b8(), _a, _b); return 0; }
 
 Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_sme failed with the following compile output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-aQSzdy
+Change Dir: /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-k7PQHI
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32d5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32d5f.dir/build.make CMakeFiles/cmTC_32d5f.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-aQSzdy'
-Building CXX object CMakeFiles/cmTC_32d5f.dir/src.cxx.o
-/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_sme  -mcpu=cortex-a72+sme -std=gnu++17 -o CMakeFiles/cmTC_32d5f.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-aQSzdy/src.cxx
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c4b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c4b0.dir/build.make CMakeFiles/cmTC_2c4b0.dir/build
+gmake[1]: Entering directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-k7PQHI'
+Building CXX object CMakeFiles/cmTC_2c4b0.dir/src.cxx.o
+/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_sme  -mcpu=cortex-a72+sme -std=gnu++17 -o CMakeFiles/cmTC_2c4b0.dir/src.cxx.o -c /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-k7PQHI/src.cxx
 cc1plus: error: invalid feature modifier ‘sme’ in ‘-mcpu=cortex-a72+sme’
 cc1plus: note: valid arguments are: fp simd crypto crc lse fp16 rcpc rdma dotprod aes sha2 sha3 sm4 fp16fml sve profile rng memtag sb ssbs predres sve2 sve2-sm4 sve2-aes sve2-sha3 sve2-bitperm tme i8mm f32mm f64mm bf16 flagm pauth ls64 mops; did you mean ‘sm4’?
-gmake[1]: *** [CMakeFiles/cmTC_32d5f.dir/build.make:78: CMakeFiles/cmTC_32d5f.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-aQSzdy'
-gmake: *** [Makefile:127: cmTC_32d5f/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_2c4b0.dir/build.make:78: CMakeFiles/cmTC_2c4b0.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-k7PQHI'
+gmake: *** [Makefile:127: cmTC_2c4b0/fast] Error 2
 
 
 ...and run output:
@@ -180,17 +110,17 @@ Source file was:
 __arm_locally_streaming int main() { __asm__ volatile("smstart; smstop;"); return 0; }
 
 Performing C++ SOURCE FILE Test GGML_MACHINE_SUPPORTS_nosme failed with the following output:
-Change Dir: /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-D3FNIi
+Change Dir: /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-R1t6rB
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d296b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d296b.dir/build.make CMakeFiles/cmTC_d296b.dir/build
-gmake[1]: Entering directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-D3FNIi'
-Building CXX object CMakeFiles/cmTC_d296b.dir/src.cxx.o
-/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_nosme  -mcpu=cortex-a72+nosme -std=gnu++17 -o CMakeFiles/cmTC_d296b.dir/src.cxx.o -c /home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-D3FNIi/src.cxx
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f801f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f801f.dir/build.make CMakeFiles/cmTC_f801f.dir/build
+gmake[1]: Entering directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-R1t6rB'
+Building CXX object CMakeFiles/cmTC_f801f.dir/src.cxx.o
+/usr/bin/c++ -DGGML_MACHINE_SUPPORTS_nosme  -mcpu=cortex-a72+nosme -std=gnu++17 -o CMakeFiles/cmTC_f801f.dir/src.cxx.o -c /home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-R1t6rB/src.cxx
 cc1plus: error: invalid feature modifier ‘sme’ in ‘-mcpu=cortex-a72+nosme’
 cc1plus: note: valid arguments are: fp simd crypto crc lse fp16 rcpc rdma dotprod aes sha2 sha3 sm4 fp16fml sve profile rng memtag sb ssbs predres sve2 sve2-sm4 sve2-aes sve2-sha3 sve2-bitperm tme i8mm f32mm f64mm bf16 flagm pauth ls64 mops; did you mean ‘sm4’?
-gmake[1]: *** [CMakeFiles/cmTC_d296b.dir/build.make:78: CMakeFiles/cmTC_d296b.dir/src.cxx.o] Error 1
-gmake[1]: Leaving directory '/home/pi/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-D3FNIi'
-gmake: *** [Makefile:127: cmTC_d296b/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_f801f.dir/build.make:78: CMakeFiles/cmTC_f801f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/pi/.llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-R1t6rB'
+gmake: *** [Makefile:127: cmTC_f801f/fast] Error 2
 
 
 Source file was:

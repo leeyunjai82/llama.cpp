@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include examples/batched-bench/CMakeFiles/llama-batched-bench.dir/depend.make
@@ -70,18 +70,18 @@ include examples/batched-bench/CMakeFiles/llama-batched-bench.dir/progress.make
 include examples/batched-bench/CMakeFiles/llama-batched-bench.dir/flags.make
 
 examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o: examples/batched-bench/CMakeFiles/llama-batched-bench.dir/flags.make
-examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o: /home/pi/llama.cpp/examples/batched-bench/batched-bench.cpp
+examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o: /home/pi/.llama.cpp/examples/batched-bench/batched-bench.cpp
 examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o: examples/batched-bench/CMakeFiles/llama-batched-bench.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/batched-bench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o -MF CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o.d -o CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o -c /home/pi/llama.cpp/examples/batched-bench/batched-bench.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/batched-bench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o -MF CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o.d -o CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o -c /home/pi/.llama.cpp/examples/batched-bench/batched-bench.cpp
 
 examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/batched-bench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/batched-bench/batched-bench.cpp > CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/batched-bench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/batched-bench/batched-bench.cpp > CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.i
 
 examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/batched-bench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/batched-bench/batched-bench.cpp -o CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/batched-bench && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/batched-bench/batched-bench.cpp -o CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.s
 
 # Object files for target llama-batched-bench
 llama__batched__bench_OBJECTS = \
@@ -98,18 +98,18 @@ bin/llama-batched-bench: bin/libggml.so
 bin/llama-batched-bench: bin/libggml-cpu.so
 bin/llama-batched-bench: bin/libggml-base.so
 bin/llama-batched-bench: examples/batched-bench/CMakeFiles/llama-batched-bench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-batched-bench"
-	cd /home/pi/llama.cpp/build/examples/batched-bench && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-batched-bench.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-batched-bench"
+	cd /home/pi/.llama.cpp/build/examples/batched-bench && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-batched-bench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/batched-bench/CMakeFiles/llama-batched-bench.dir/build: bin/llama-batched-bench
 .PHONY : examples/batched-bench/CMakeFiles/llama-batched-bench.dir/build
 
 examples/batched-bench/CMakeFiles/llama-batched-bench.dir/clean:
-	cd /home/pi/llama.cpp/build/examples/batched-bench && $(CMAKE_COMMAND) -P CMakeFiles/llama-batched-bench.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/examples/batched-bench && $(CMAKE_COMMAND) -P CMakeFiles/llama-batched-bench.dir/cmake_clean.cmake
 .PHONY : examples/batched-bench/CMakeFiles/llama-batched-bench.dir/clean
 
 examples/batched-bench/CMakeFiles/llama-batched-bench.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/examples/batched-bench /home/pi/llama.cpp/build /home/pi/llama.cpp/build/examples/batched-bench /home/pi/llama.cpp/build/examples/batched-bench/CMakeFiles/llama-batched-bench.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/examples/batched-bench /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/examples/batched-bench /home/pi/.llama.cpp/build/examples/batched-bench/CMakeFiles/llama-batched-bench.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/batched-bench/CMakeFiles/llama-batched-bench.dir/depend
 

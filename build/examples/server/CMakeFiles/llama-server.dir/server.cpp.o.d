@@ -1,9 +1,9 @@
 examples/server/CMakeFiles/llama-server.dir/server.cpp.o: \
- /home/pi/llama.cpp/examples/server/server.cpp /usr/include/stdc-predef.h \
- /home/pi/llama.cpp/examples/server/utils.hpp \
- /home/pi/llama.cpp/common/./common.h \
- /home/pi/llama.cpp/src/../include/llama-cpp.h /usr/include/c++/12/memory \
- /usr/include/c++/12/bits/stl_algobase.h \
+ /home/pi/.llama.cpp/examples/server/server.cpp \
+ /usr/include/stdc-predef.h /home/pi/.llama.cpp/examples/server/utils.hpp \
+ /home/pi/.llama.cpp/common/./common.h \
+ /home/pi/.llama.cpp/src/../include/llama-cpp.h \
+ /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -115,8 +115,8 @@ examples/server/CMakeFiles/llama-server.dir/server.cpp.o: \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml.h \
  /usr/lib/gcc/aarch64-linux-gnu/12/include/stdbool.h /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
@@ -124,9 +124,9 @@ examples/server/CMakeFiles/llama-server.dir/server.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
  /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-cpu.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-backend.h \
- /home/pi/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/pi/.llama.cpp/ggml/src/../include/ggml-alloc.h \
  /usr/include/c++/12/set /usr/include/c++/12/bits/stl_tree.h \
  /usr/include/c++/12/bits/node_handle.h \
  /usr/include/c++/12/bits/stl_set.h /usr/include/c++/12/initializer_list \
@@ -183,11 +183,11 @@ examples/server/CMakeFiles/llama-server.dir/server.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc /usr/include/c++/12/ostream \
  /usr/include/c++/12/bits/ostream.tcc \
  /usr/include/c++/12/bits/istream.tcc \
- /usr/include/c++/12/bits/sstream.tcc /home/pi/llama.cpp/common/./log.h \
- /home/pi/llama.cpp/src/../include/llama.h \
- /home/pi/llama.cpp/common/./base64.hpp /usr/include/c++/12/iterator \
+ /usr/include/c++/12/bits/sstream.tcc /home/pi/.llama.cpp/common/./log.h \
+ /home/pi/.llama.cpp/src/../include/llama.h \
+ /home/pi/.llama.cpp/common/./base64.hpp /usr/include/c++/12/iterator \
  /usr/include/c++/12/bits/stream_iterator.h \
- /home/pi/llama.cpp/examples/server/httplib.h /usr/include/arpa/inet.h \
+ /home/pi/.llama.cpp/examples/server/httplib.h /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h /usr/include/aarch64-linux-gnu/sys/socket.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/aarch64-linux-gnu/bits/socket.h \
@@ -353,7 +353,7 @@ examples/server/CMakeFiles/llama-server.dir/server.cpp.o: \
  /usr/include/c++/12/unordered_set \
  /usr/include/c++/12/bits/unordered_set.h /usr/include/c++/12/utility \
  /usr/include/c++/12/bits/stl_relops.h \
- /home/pi/llama.cpp/common/./json.hpp /usr/include/c++/12/cstddef \
+ /home/pi/.llama.cpp/common/./json.hpp /usr/include/c++/12/cstddef \
  /usr/include/c++/12/forward_list /usr/include/c++/12/bits/forward_list.h \
  /usr/include/c++/12/bits/forward_list.tcc /usr/include/c++/12/valarray \
  /usr/include/c++/12/bits/valarray_array.h \
@@ -368,13 +368,13 @@ examples/server/CMakeFiles/llama-server.dir/server.cpp.o: \
  /usr/include/c++/12/filesystem /usr/include/c++/12/bits/fs_fwd.h \
  /usr/include/c++/12/bits/fs_path.h /usr/include/c++/12/codecvt \
  /usr/include/c++/12/bits/fs_dir.h /usr/include/c++/12/bits/fs_ops.h \
- /usr/include/c++/12/any /home/pi/llama.cpp/common/./chat.h \
- /home/pi/llama.cpp/common/./arg.h \
- /home/pi/llama.cpp/common/./json-schema-to-grammar.h \
- /home/pi/llama.cpp/common/./json.hpp \
- /home/pi/llama.cpp/common/./sampling.h \
- /home/pi/llama.cpp/common/./speculative.h \
- /home/pi/llama.cpp/build/examples/server/index.html.gz.hpp \
- /home/pi/llama.cpp/build/examples/server/loading.html.hpp \
+ /usr/include/c++/12/any /home/pi/.llama.cpp/common/./chat.h \
+ /home/pi/.llama.cpp/common/./arg.h \
+ /home/pi/.llama.cpp/common/./json-schema-to-grammar.h \
+ /home/pi/.llama.cpp/common/./json.hpp \
+ /home/pi/.llama.cpp/common/./sampling.h \
+ /home/pi/.llama.cpp/common/./speculative.h \
+ /home/pi/.llama.cpp/build/examples/server/index.html.gz.hpp \
+ /home/pi/.llama.cpp/build/examples/server/loading.html.hpp \
  /usr/include/c++/12/chrono /usr/include/c++/12/cinttypes \
  /usr/include/inttypes.h

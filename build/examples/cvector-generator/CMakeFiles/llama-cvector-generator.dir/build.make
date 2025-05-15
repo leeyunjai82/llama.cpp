@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/depend.make
@@ -70,18 +70,18 @@ include examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/progre
 include examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/flags.make
 
 examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o: examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/flags.make
-examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o: /home/pi/llama.cpp/examples/cvector-generator/cvector-generator.cpp
+examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o: /home/pi/.llama.cpp/examples/cvector-generator/cvector-generator.cpp
 examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o: examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/cvector-generator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -MF CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o.d -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -c /home/pi/llama.cpp/examples/cvector-generator/cvector-generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/cvector-generator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -MF CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o.d -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -c /home/pi/.llama.cpp/examples/cvector-generator/cvector-generator.cpp
 
 examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/cvector-generator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/cvector-generator/cvector-generator.cpp > CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/cvector-generator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/cvector-generator/cvector-generator.cpp > CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.i
 
 examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/cvector-generator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/cvector-generator/cvector-generator.cpp -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/cvector-generator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/cvector-generator/cvector-generator.cpp -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.s
 
 # Object files for target llama-cvector-generator
 llama__cvector__generator_OBJECTS = \
@@ -98,18 +98,18 @@ bin/llama-cvector-generator: bin/libggml.so
 bin/llama-cvector-generator: bin/libggml-cpu.so
 bin/llama-cvector-generator: bin/libggml-base.so
 bin/llama-cvector-generator: examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-cvector-generator"
-	cd /home/pi/llama.cpp/build/examples/cvector-generator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-cvector-generator.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-cvector-generator"
+	cd /home/pi/.llama.cpp/build/examples/cvector-generator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-cvector-generator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/build: bin/llama-cvector-generator
 .PHONY : examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/build
 
 examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/clean:
-	cd /home/pi/llama.cpp/build/examples/cvector-generator && $(CMAKE_COMMAND) -P CMakeFiles/llama-cvector-generator.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/examples/cvector-generator && $(CMAKE_COMMAND) -P CMakeFiles/llama-cvector-generator.dir/cmake_clean.cmake
 .PHONY : examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/clean
 
 examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/examples/cvector-generator /home/pi/llama.cpp/build /home/pi/llama.cpp/build/examples/cvector-generator /home/pi/llama.cpp/build/examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/examples/cvector-generator /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/examples/cvector-generator /home/pi/.llama.cpp/build/examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/depend
 

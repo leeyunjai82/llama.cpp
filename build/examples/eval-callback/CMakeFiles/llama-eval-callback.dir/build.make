@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 # Include any dependencies generated for this target.
 include examples/eval-callback/CMakeFiles/llama-eval-callback.dir/depend.make
@@ -70,18 +70,18 @@ include examples/eval-callback/CMakeFiles/llama-eval-callback.dir/progress.make
 include examples/eval-callback/CMakeFiles/llama-eval-callback.dir/flags.make
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o: examples/eval-callback/CMakeFiles/llama-eval-callback.dir/flags.make
-examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o: /home/pi/llama.cpp/examples/eval-callback/eval-callback.cpp
+examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o: /home/pi/.llama.cpp/examples/eval-callback/eval-callback.cpp
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o: examples/eval-callback/CMakeFiles/llama-eval-callback.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o"
-	cd /home/pi/llama.cpp/build/examples/eval-callback && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -MF CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o.d -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -c /home/pi/llama.cpp/examples/eval-callback/eval-callback.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o"
+	cd /home/pi/.llama.cpp/build/examples/eval-callback && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -MF CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o.d -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -c /home/pi/.llama.cpp/examples/eval-callback/eval-callback.cpp
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.i"
-	cd /home/pi/llama.cpp/build/examples/eval-callback && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/llama.cpp/examples/eval-callback/eval-callback.cpp > CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.i
+	cd /home/pi/.llama.cpp/build/examples/eval-callback && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/.llama.cpp/examples/eval-callback/eval-callback.cpp > CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.i
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.s"
-	cd /home/pi/llama.cpp/build/examples/eval-callback && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/llama.cpp/examples/eval-callback/eval-callback.cpp -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.s
+	cd /home/pi/.llama.cpp/build/examples/eval-callback && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/.llama.cpp/examples/eval-callback/eval-callback.cpp -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.s
 
 # Object files for target llama-eval-callback
 llama__eval__callback_OBJECTS = \
@@ -98,18 +98,18 @@ bin/llama-eval-callback: bin/libggml.so
 bin/llama-eval-callback: bin/libggml-cpu.so
 bin/llama-eval-callback: bin/libggml-base.so
 bin/llama-eval-callback: examples/eval-callback/CMakeFiles/llama-eval-callback.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-eval-callback"
-	cd /home/pi/llama.cpp/build/examples/eval-callback && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-eval-callback.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/.llama.cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-eval-callback"
+	cd /home/pi/.llama.cpp/build/examples/eval-callback && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-eval-callback.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/build: bin/llama-eval-callback
 .PHONY : examples/eval-callback/CMakeFiles/llama-eval-callback.dir/build
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/clean:
-	cd /home/pi/llama.cpp/build/examples/eval-callback && $(CMAKE_COMMAND) -P CMakeFiles/llama-eval-callback.dir/cmake_clean.cmake
+	cd /home/pi/.llama.cpp/build/examples/eval-callback && $(CMAKE_COMMAND) -P CMakeFiles/llama-eval-callback.dir/cmake_clean.cmake
 .PHONY : examples/eval-callback/CMakeFiles/llama-eval-callback.dir/clean
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/llama.cpp /home/pi/llama.cpp/examples/eval-callback /home/pi/llama.cpp/build /home/pi/llama.cpp/build/examples/eval-callback /home/pi/llama.cpp/build/examples/eval-callback/CMakeFiles/llama-eval-callback.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/.llama.cpp /home/pi/.llama.cpp/examples/eval-callback /home/pi/.llama.cpp/build /home/pi/.llama.cpp/build/examples/eval-callback /home/pi/.llama.cpp/build/examples/eval-callback/CMakeFiles/llama-eval-callback.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/eval-callback/CMakeFiles/llama-eval-callback.dir/depend
 

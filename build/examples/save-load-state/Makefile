@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/llama.cpp
+CMAKE_SOURCE_DIR = /home/pi/.llama.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/llama.cpp/build
+CMAKE_BINARY_DIR = /home/pi/.llama.cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/llama.cpp/build/CMakeFiles /home/pi/llama.cpp/build/examples/save-load-state//CMakeFiles/progress.marks
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/llama.cpp/build/CMakeFiles 0
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/.llama.cpp/build/CMakeFiles /home/pi/.llama.cpp/build/examples/save-load-state//CMakeFiles/progress.marks
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/.llama.cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/clean
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/preinstall
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/preinstall
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/rule:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/rule
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/rule
 .PHONY : examples/save-load-state/CMakeFiles/llama-save-load-state.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ llama-save-load-state: examples/save-load-state/CMakeFiles/llama-save-load-state
 
 # fast build rule for target.
 llama-save-load-state/fast:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build.make examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build.make examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build
 .PHONY : llama-save-load-state/fast
 
 save-load-state.o: save-load-state.cpp.o
@@ -190,7 +190,7 @@ save-load-state.o: save-load-state.cpp.o
 
 # target to build an object file
 save-load-state.cpp.o:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build.make examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build.make examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o
 .PHONY : save-load-state.cpp.o
 
 save-load-state.i: save-load-state.cpp.i
@@ -198,7 +198,7 @@ save-load-state.i: save-load-state.cpp.i
 
 # target to preprocess a source file
 save-load-state.cpp.i:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build.make examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.i
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build.make examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.i
 .PHONY : save-load-state.cpp.i
 
 save-load-state.s: save-load-state.cpp.s
@@ -206,7 +206,7 @@ save-load-state.s: save-load-state.cpp.s
 
 # target to generate assembly for a file
 save-load-state.cpp.s:
-	cd /home/pi/llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build.make examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.s
+	cd /home/pi/.llama.cpp/build && $(MAKE) $(MAKESILENT) -f examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build.make examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.s
 .PHONY : save-load-state.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/.llama.cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
