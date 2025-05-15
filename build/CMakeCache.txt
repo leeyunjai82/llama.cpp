@@ -652,7 +652,7 @@ OpenMP_gomp_LIBRARY:FILEPATH=/usr/lib/gcc/aarch64-linux-gnu/12/libgomp.so
 OpenMP_pthread_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libpthread.a
 
 //Name of the computer/site where compile is being run
-SITE:STRING=8b8006cb
+SITE:STRING=6d2d5382
 
 //Value Computed by CMake
 ggml_BINARY_DIR:STATIC=/home/pi/.llama.cpp/build/ggml
