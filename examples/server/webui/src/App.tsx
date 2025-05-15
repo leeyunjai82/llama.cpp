@@ -26,16 +26,6 @@ function App() {
 function AppLayout() {
   const { showSettings, setShowSettings } = useAppContext();
 
-  const urlon = `http://${location.hostname}/llm?enable=on`;
-  console.log(`[handleBeforeUnload] 요청 URL: ${urlon}`);
-  fetch(urlon, { method: 'GET', keepalive: true })
-    .then(response => {
-    console.log(`[handleBeforeUnload] fetch 응답 수신. 상태: ${response.status}`);
-    if (!response.ok) {}
-  })
-  .catch(_err => {
-  });
-
   // <<< yjlee 시작 >>>
   useEffect(() => {
     const handleBeforeUnload = (_event: BeforeUnloadEvent) => {
